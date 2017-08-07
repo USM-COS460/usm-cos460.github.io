@@ -44,12 +44,12 @@ The course is partially project-based. There will be four (4) programming projec
 
 ### Schedule of Projects 
 
-| n | Project       | Possible Points   |
-| --- | --- | --- |
-| 1 | Number Guess  |    50             |
-| 2 | HTTP Server   |   100             |
-| 3 | TBA Part 1    |    75             |
-| 4 | TBA Part 2    |   100             |          
+| n   | Project       | Possible Points |
+| --- | ---           | ---:            |
+| 1   | Number Guess  |    50           |
+| 2   | HTTP Server   |   100           |
+| 3   | TBA Part 1    |    75           |
+| 4   | TBA Part 2    |   100           |          
 
 Your code will be submitted (checked in) on [GitHub](https://classroom.github.com/classrooms/30673287-usm-cos-460-540-computer-networks) to an assignment for each project. Details on what needs to be submitted will be included with each assignment. In all cases, you should submit only source code, no binary executable files. 
 
@@ -60,7 +60,7 @@ Code should work and be your own creation. There are numerous sources of informa
 ### Project Grading Rubric
 
 | Score   | Grade | Notes |
-| ---     | ---   | ---   |
+| ---:    | ---   | ---   |
 | 90-100% | A     | Compiles, runs, meets or exceeds all specifications, well documented and organized |
 | 80-89%  | B     | Compiles, runs, meets most or all specifications (black box tests) |
 | 60-79%  | C     | Compiles, runs, meets some specifications |
@@ -73,7 +73,7 @@ The course includes three (3) examinations. The examinations will cover all the 
 ### Schedule of Examinations
 
 | Exam  | Possible Points   | Notes |
-| ---   | ---               | ---   |
+| ---   | ---:              | ---   |
 | 1     | 100               | |
 | 2     | 100               | |
 | 3     | 125               | Cumulative |
@@ -85,7 +85,7 @@ The examinations will be conducted within Blackboard (www.courses.maine.edu). Ea
 ### Exam Grading Rubric
 
 | Score     | Grade |
-| ---       | ---   |
+| ---:      | ---   |
 | 90-100%   | A     |
 | 80-89%    | B     |
 | 60-79%    | C     |
@@ -101,9 +101,10 @@ The schedule of presentations is available via [Google Calendar when available] 
 
 ### Schedule of Graduate Work
 
-| Assignment    | Possible Points  |
-| Paper         | 50               |
-| Presentation  | 50               |
+| Assignment    | Possible Points |
+| ---           | ---:            |
+| Paper         | 50              |
+| Presentation  | 50              |
 
 ## Schedule
 
@@ -228,7 +229,7 @@ Grades for the course will be based on an accumulation of points from the examin
 Schedule of Point Accumulation and Grade Assignment
 
 | COS 460   | COS 540   | % Score   | Grade |
-| ---       | ---       | ---       | ---   |
+| :---:     | :---:     | :---:     | ---   |
 | 585 - 650 | 675 - 750 | 90-100%   | A     |
 | 520 - 584 | 600 - 674 | 80-89%    | B     |
 | 390 - 519 | 450 - 599 | 60-79%    | C     |
