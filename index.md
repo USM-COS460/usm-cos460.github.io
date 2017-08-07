@@ -7,10 +7,23 @@ The focus of the course will be on understanding and utilizing the Internet (TCP
 
 The class is dual-listed as an undergraduate (COS 460) and graduate course (COS 540); graduate students will have additional reading and must prepare a presentation for the class
 
+## Instructor
+
+**Stephen Houser <<houser@maine.edu>>**
+
 ## Textbook
 
+<img align="center" height="200" src="http://images.amazon.com/images/P/0123850592.jpg" alt="Computer Networks Textbook Cover"/>
+
 *Computer Networks: A Systems Approach*, Fifth Edition, L. L. Peterson and B. S. Davie, Morgan Kaufmann, 2011.
-<img height="200" src="http://images.amazon.com/images/P/0123850592.jpg" alt="Computer Networks Textbook Cover"/>
+
+## Course Materials
+
+* [Full Syllabus](syllabus.html)
+* [Project 1: Number Guessing Server](https://classroom.github.com/a/Uo9BNarY)
+* Project 2: *HTTP Server*
+* Project 3: *TBD*
+* Project 4: *TBD*
 
 ## Schedule
 
@@ -33,11 +46,3 @@ The class is dual-listed as an undergraduate (COS 460) and graduate course (COS 
 | Week&nbsp;14 (11/6) | Traditional Applications, Overlay Networks | Ch. 9 - Sections 9.1, 9.5, [The Internet Under Crisis Conditions: Learning from September 11](https://www.nap.edu/read/10569/chapter/1), [An analysis of the Skype peer-to-peer Internet telephony protocol](http://www1.cs.columbia.edu/~salman/publications/skype1_4.pdf)
 | Week&nbsp;15 (12/13) | Graduate Presentations | [Final Exam (online)](https://bb.courses.maine.edu), Graduate Presentations Due, Graduate Research Papers Due, Assignment #4 Due |
 
-## Course Materials
-
-* [Syllabus](syllabus.html)
-
-* [Project 1: Number Guessing Server]()
-* [Project 2: Number Guessing Server]()
-* [Project 3: TBD]()
-* [Project 4: TBD]()
