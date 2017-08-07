@@ -108,123 +108,28 @@ The schedule of presentations is available via [Google Calendar when available] 
 
 ## Schedule
 
-The following is the schedule for the course. Topic coverage and due dates may change based on progress, snow-days, holidays, and other events. The course management system (Blackboard at www.courses.maine.edu) will have the project submission and associated final due dates as well as the electronic examinations for the course.
+The following is the schedule for the course. Topic coverage and due dates may change based on progress, snow-days, holidays, and other events.
 
-Date
-Topic
-Notes/Reading
-Foundation
-Week 1
-8/31
-Course Overview and Foundation
+| Date | Topic | Notes/Reading |
+| :---: | ---   | --- | 
+| Week&nbsp;1  (8/30)  | Course Overview and Foundation, Socket Programming | Ch. 1 - Sections 1.1 - 1.4 and, [A Brief History of the Internet](http://www.internetsociety.org/internet/what-internet/history-internet/brief-history-internet), [There and Back Again: A Packet’s Tale (video)](http://www.internetsociety.org/internet/what-internet/history-internet/brief-history-internet), [Beej's Guide to Network Programming (C)](http://beej.us/guide/bgnet/), [The Java Tutorial: All About Sockets](https://docs.oracle.com/javase/tutorial/networking/sockets/), [Python Network Programming](http://www.tutorialspoint.com/python/python_networking.htm) |
+| Week&nbsp;2  (9/6)   | Network Performance | Ch. 1 - Sections 1.5 and 1.6, Getting Connected |
+| Week&nbsp;3  (9/13)  | Local Links and Encoding, More Socket Programming | Ch. 2 - Sections 2.1 - 2.5, Assignment #1 Due |
+| Week&nbsp;4  (9/20)  | Ethernet and Wireless | Ch. 2 - Sections 2.6 - 2.8 |
+| Week&nbsp;5  (9/27)  | Switching and Bridging | Ch. 3 - Section 3.1, Exam #1 (Online) |
+| Week&nbsp;6  (10/4)  | Basic Internetworking (IP) | Ch 3. - Section 3.2, [Bootstrapping with BOOTP and DHCP](https://www.cisco.com/c/en/us/about/press/internet-protocol-journal/back-issues/table-contents-22/dhcp.html), Assignment #2 Due |
+| Week&nbsp;7  (10/11) | Routing | Ch. 3 - Section 3.3 and 3.5 |
+| Week&nbsp;8  (10/18) | Simple Demultiplexer (UDP), Reliable Byte Stream (TCP) | Ch. 5 - Section 5.1 and 5.2 |
+| Week&nbsp;9  (10/25) | Remote Procedure Call (RPC), Real Time Protocol (RTP) | Ch. 5 - Section 5.3 - 5.5 |
+| Week&nbsp;10 (11/1)  | Congestion Control | Ch 6. - Sections 6.1, 6.3, 6.5, and 6.6, Exam #2 (Online) |
+| Week&nbsp;11 (11/8 ) | Presentation Formatting | Ch. 7 - Section 7.1, Assignment #3 Due |
+| Week&nbsp;12 (11/15) | Multimedia Data | Ch. 7 - Sections 7.2 - 7.3, [YouTube network traffic at a campus network](http://gaia.cs.umass.edu/networks/papers/MMCN08-0.2.pdf) |
+| (11/22) | Thanksgiving Break | |
+| Week&nbsp;13 (11/29) | Network Security | Ch. 8 - Sections 8.1, 8.4, 8.5, 8.6, [A Look Inside Network Address Translators and Virtual Local Area Networks (VLANs)](https://www.cisco.com/c/en/us/about/press/internet-protocol-journal/back-issues/table-contents-29/anatomy.html) |
+| Week&nbsp;14 (11/6) | Traditional Applications, Overlay Networks | Ch. 9 - Sections 9.1, 9.5, [The Internet Under Crisis Conditions: Learning from September 11](https://www.nap.edu/read/10569/chapter/1), [An analysis of the Skype peer-to-peer Internet telephony protocol](http://www1.cs.columbia.edu/~salman/publications/skype1_4.pdf)
+| Week&nbsp;15 (12/13) | Graduate Presentations | Final Exam (online), Graduate Presentations Due, Graduate Research Papers Due, Assignment #4 Due |
 
-
-Ch. 1 - Sections 1.1 - 1.3 and 
-A Brief History of the Internet
-There and Back Again: A Packet’s Tale (video)
-
-
-
-Socket Programming
-Ch. 1 - Section 1.4 and 
-Beej's Guide to Network Programming (C)
-The Java Tutorial: All About Sockets
-Python Network Programming
-
-Week 2
-9/7
-Labor Day (Holiday)
-Network Performance
-Ch. 1 - Sections 1.5 and 1.6
-Getting Connected
-Week 3
-9/14
-Local Links and Encoding
-Ch. 2 - Sections 2.1 - 2.5
-Assignment #1 Due
-
-
-More Socket Programming
-
-
-Week 4
-9/21
-Ethernet and Wireless
-Ch. 2 - Sections 2.6 - 2.8
-Internetworking
-Week 5
-9/28
-Switching and Bridging
-Ch. 3 - Section 3.1
-Exam #1 (Online)
-Week 6
-10/5
-Basic Internetworking (IP)
-Ch 3. - Section 3.2 and Bootstrapping with BOOTP and DHCP
-Assignment #2 Due
-Week 7
-10/12
-Columbus Day (Holiday)
-Routing
-Ch. 3 - Section 3.3 and 3.5
-End-to-End Protocols
-Week 8
-10/19
-Simple Demultiplexer (UDP),
-Reliable Byte Stream (TCP)
-Ch. 5 - Section 5.1 and 5.2
-Week 9
-10/26
-Remote Procedure Call (RPC), Real Time Protocol (RTP)
-
-
-Ch. 5 - Section 5.3 - 5.5
-
-
-Week 10
-11/2
-Congestion Control
-Ch 6. - Sections 6.1, 6.3, 6.5, and 6.6
-Exam #2 (Online)
-End-to-End Data
-Week 11
-11/9
-Presentation Formatting
-Ch. 7 - Section 7.1
-
-Assignment #3 Due
-Week 12
-11/16
-Multimedia Data
-Ch. 7 - Sections 7.2 - 7.3 and YouTube network traffic at a campus network
-Network Security
-Week 13
-11/23
-Thanksgiving Break (Holiday)
-Network Security
-Ch. 8 - Sections 8.1, 8.4, 8.5, 8.6, and A Look Inside Network Address Translators and
-Virtual Local Area Networks (VLANs)
-Applications
-Week 14
-11/30
-Traditional Applications
-Ch. 9 - Sections 9.1, 9.3, and The Internet Under Crisis Conditions: Learning from September 11
-
-
-Overlay Networks
-Ch. 9 - Sections 9.4 - 9.5 and An analysis of the Skype peer-to-peer Internet telephony protocol
-Week 15
-12/7
-Graduate Presentations
-Final Exam (Online)
-Graduate Presentations Due
-Graduate Research Papers Due
-Assignment #4 Due
-
-* Recognized holidays, only one (1) meeting these weeks
-
-## 
-Grades
+## Grades
 Grades for the course will be based on an accumulation of points from the examinations and assignments.
 Schedule of Point Accumulation and Grade Assignment
 
