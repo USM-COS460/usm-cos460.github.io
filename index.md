@@ -10,7 +10,7 @@ The class is dual-listed as an undergraduate (COS 460) and graduate course (COS 
 ## Textbook
 
 *Computer Networks: A Systems Approach*, Fifth Edition, L. L. Peterson and B. S. Davie, Morgan Kaufmann, 2011.
-<img height="50" src="http://images.amazon.com/images/P/0123850592.jpg" alt="Computer Networks Textbook Cover"/>
+<img height="200" src="http://images.amazon.com/images/P/0123850592.jpg" alt="Computer Networks Textbook Cover"/>
 
 ## Schedule
 
