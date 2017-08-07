@@ -45,4 +45,4 @@ The class is dual-listed as an undergraduate (COS 460) and graduate course (COS 
 | Week&nbsp;14 (11/6) | Traditional Applications, Overlay Networks | Ch. 9 - Sections 9.1, 9.5, [The Internet Under Crisis Conditions: Learning from September 11](https://www.nap.edu/read/10569/chapter/1), [An analysis of the Skype peer-to-peer Internet telephony protocol](http://www1.cs.columbia.edu/~salman/publications/skype1_4.pdf)
 | Week&nbsp;15 (12/13) | Graduate Presentations | [Final Exam (online)](https://bb.courses.maine.edu), Graduate Presentations Due, Graduate Research Papers Due, Assignment #4 Due |
 
-**Please see the [Full Syllabus](syllabus.html) for more details on the course, grading, schedule, etc.. This page is meant only as a summary and quick-reference.**
+*Please see the [Full Syllabus](syllabus.html) for more details on the course, grading, schedule, etc.. This page is meant only as a summary and quick-reference.*
