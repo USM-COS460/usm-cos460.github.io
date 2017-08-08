@@ -1,3 +1,6 @@
+---
+title: COS 460/540 Home
+---
 ## Introduction
 
 USM Course Catalog: *A description of computer networks organized as a layered architecture based on the OSI Reference Model. Protocols and services of each layer are examined in detail. Specific local area networks, metropolitan area networks, and wide area networks will be considered. Prerequisites: COS 285, COS 251. Cr 3.*

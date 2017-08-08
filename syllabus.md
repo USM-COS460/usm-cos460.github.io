@@ -1,6 +1,7 @@
+---
+---
 COS 460/540 - Computer Networks
 Course Syllabus - Fall 2015
-
 
 ## Instructor
 Stephen Houser <houser@maine.edu>
