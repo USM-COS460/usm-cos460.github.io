@@ -113,8 +113,9 @@ title: Home
       <td>Week 15<br/>(12/13)</td>
       <td>Graduate Presentations</td>
       <td><a href="https://bb.courses.maine.edu">Final Exam (online)</a><br/>
-	  	Graduate Presentations Due, Graduate Research Papers Due<br/>
-		Assignment #4 Due
+	  	Graduate Presentations Due<br/>
+      Graduate Research Papers Due<br/>
+		  Assignment #4 Due
 	  </td>
     </tr>
   </tbody>
