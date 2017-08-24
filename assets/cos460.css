@@ -1,0 +1,54 @@
+
+.wrapper {
+	max-width: 75%;
+}
+
+#schedule td {
+	padding-top: 0.25em;
+	padding-bottom: 0.25em;
+}
+
+#schedule tr:nth-child(even) {
+    background-color: lightgrey;
+}
+
+#schedule tr th {
+	border-bottom: 1px solid black;
+}
+
+#schedule tr:last-child td {
+	border-bottom: 1px solid black;
+}
+
+#schedule tr td:nth-child(1) {
+	width: 10%;
+	text-align: center;
+}
+
+#schedule tr td:nth-child(2) {
+	width: 40%;
+}
+
+#schedule tr td:nth-child(3) {
+	width: 40%;
+}
+
+#schedule td {
+	vertical-align: top;
+}
+
+/*
+.page-heading:nth-child(1) {
+	margin-top: 0;
+}
+*/
+
+.page-heading {
+	margin-top: 1em;
+	font-size: xx-large;
+	text-align: center;
+}
+
+.post-list h2 {
+	font-size: large;
+}
