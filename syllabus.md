@@ -113,7 +113,7 @@ The schedule of presentations is available via [Google Calendar when available] 
 The following is the schedule for the course. Topic coverage and due dates may change based on progress, snow-days, holidays, and other events.
 
 | Date | Topic | Notes/Reading |
-| :---: | ---   | --- | 
+| :---: | ---   | --- |
 | Week&nbsp;1  (8/30)  | Course Overview and Foundation, Socket Programming | Ch. 1 - Sections 1.1 - 1.4 and, [A Brief History of the Internet](http://www.internetsociety.org/internet/what-internet/history-internet/brief-history-internet), [There and Back Again: A Packet’s Tale (video)](http://www.internetsociety.org/internet/what-internet/history-internet/brief-history-internet), [Beej's Guide to Network Programming (C)](http://beej.us/guide/bgnet/), [The Java Tutorial: All About Sockets](https://docs.oracle.com/javase/tutorial/networking/sockets/), [Python Network Programming](http://www.tutorialspoint.com/python/python_networking.htm) |
 | Week&nbsp;2  (9/6)   | Network Performance | Ch. 1 - Sections 1.5 and 1.6, Getting Connected |
 | Week&nbsp;3  (9/13)  | Local Links and Encoding, More Socket Programming | Ch. 2 - Sections 2.1 - 2.5, Assignment #1 Due |

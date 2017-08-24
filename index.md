@@ -32,7 +32,7 @@ title: Home
       <td>Week 3<br/>(9/13)</td>
       <td>Local Links and Encoding, More Socket Programming</td>
       <td>Ch. 2 - Sections 2.1 - 2.5<br/>
-	  	<a href="https://classroom.github.com/a/Uo9BNarY">Assignment #1 Due</a>
+	  	<a href="https://classroom.github.com/a/laso4LN8">Assignment #1 Due</a>
 	  </td>
     </tr>
     <tr>
