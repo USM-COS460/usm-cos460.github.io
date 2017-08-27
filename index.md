@@ -83,7 +83,10 @@ title: Home
     <tr>
       <td>Week 11<br/>(11/8 )</td>
       <td>Presentation Formatting</td>
-      <td>Ch. 7 - Section 7.1, Assignment #3 Due</td>
+      <td>
+        Ch. 7 - Section 7.1<br/>
+        Assignment #3 TBD Due
+      </td>
     </tr>
     <tr>
       <td>Week 12<br/>(11/15)</td>
