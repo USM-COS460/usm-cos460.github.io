@@ -14,10 +14,13 @@ title: Home
   <tbody>
     <tr>
       <td>Week 1<br/>(8/30)</td>
-      <td>Course Overview and Foundation, Socket Programming</td>
+      <td>
+        <a href="/0-introduction">Introduction</a>,
+        <a href="/syllabus">Syllabus</a>,
+         <a href="/1-foundations">Foundations, and Socket Programming</a></td>
       <td>Ch. 1 - Sections 1.1 - 1.4<br/>
 	  	<a href="http://www.internetsociety.org/internet/what-internet/history-internet/brief-history-internet">A Brief History of the Internet</a><br/>
-		  <a href="http://www.internetsociety.org/internet/what-internet/history-internet/brief-history-internet">There and Back Again: A Packet’s Tale (video)</a><br/>
+		  <a href="https://www.youtube.com/watch?v=ewrBalT_eBM">There and Back Again: A Packet’s Tale (video)</a><br/>
 		  <a href="http://beej.us/guide/bgnet/">Beej’s Guide to Network Programming (C)</a><br/>
 		  <a href="https://docs.oracle.com/javase/tutorial/networking/sockets/">The Java Tutorial: All About Sockets</a><br/>
 		  <a href="http://www.tutorialspoint.com/python/python_networking.htm">Python Network Programming</a>
