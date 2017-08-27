@@ -85,7 +85,7 @@ title: Home
       <td>Presentation Formatting</td>
       <td>
         Ch. 7 - Section 7.1<br/>
-        Assignment #3 TBD Due
+        Assignment #3 Due
       </td>
     </tr>
     <tr>
