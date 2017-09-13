@@ -55,7 +55,7 @@ title: Home
       <td>Basic Internetworking (IP)</td>
       <td>Ch 3. - Section 3.2<br/>
 	  	<a href="https://www.cisco.com/c/en/us/about/press/internet-protocol-journal/back-issues/table-contents-22/dhcp.html">Bootstrapping with BOOTP and DHCP</a><br/>
-		  Assignment #2 Due
+		  <a href="https://classroom.github.com/a/4Brxp9IO">Assignment #2 Due</a>
 		</td>
     </tr>
     <tr>
