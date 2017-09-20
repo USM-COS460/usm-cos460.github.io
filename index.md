@@ -35,7 +35,7 @@ title: Home
       <td>Week 3<br/>(9/13)</td>
       <td>Local Links and Encoding, More Socket Programming</td>
       <td>Ch. 2 - Sections 2.1 - 2.5<br/>
-	  	<a href="https://classroom.github.com/a/laso4LN8">Assignment #1 Due</a>
+	  	<a href="/project-1">Assignment #1 Due</a>
 	  </td>
     </tr>
     <tr>
@@ -55,7 +55,7 @@ title: Home
       <td>Basic Internetworking (IP)</td>
       <td>Ch 3. - Section 3.2<br/>
 	  	<a href="https://www.cisco.com/c/en/us/about/press/internet-protocol-journal/back-issues/table-contents-22/dhcp.html">Bootstrapping with BOOTP and DHCP</a><br/>
-		  <a href="https://classroom.github.com/a/4Brxp9IO">Assignment #2 Due</a>
+		  <a href="/project-2">Assignment #2 Due</a>
 		</td>
     </tr>
     <tr>
