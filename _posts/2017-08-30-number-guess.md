@@ -2,11 +2,6 @@
 title: Project 1 - Number Guessing Server
 permalink: /project-1
 ---
-## COS 460/540 - Computer Networks
-# Project 1: Number Guessing Server
-
-To begin work on Project 1 [accept the assignment in GitHub Classroom](https://classroom.github.com/a/laso4LN8).
-
 ## Specification
 Your goal is to develop a TCP/IP based server that implements a number guessing
 game. This assignment is an introduction to TCP/IP socket programming and
@@ -14,6 +9,8 @@ connecting clients and servers together. You will only be responsible for the
 server side of things, you can use “telnet” for testing and validation.
 Additionally you can use telnet, a simple text-based client to interact with
 your server.
+
+To begin work on Project 1 [accept the assignment in GitHub Classroom](https://classroom.github.com/a/laso4LN8).
 
 ## The Game
 The game is to guess a number between 1 and 100. After a client connects, the
