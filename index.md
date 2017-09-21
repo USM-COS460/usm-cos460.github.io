@@ -28,31 +28,31 @@ title: Home
     </tr>
     <tr>
       <td>Week 2<br/>(9/6)</td>
-      <td>Network Performance</td>
+      <td><a href="/1-foundations">Network Performance</a></td>
       <td>Ch. 1 - Sections 1.5 and 1.6</td>
     </tr>
     <tr>
       <td>Week 3<br/>(9/13)</td>
-      <td>Local Links and Encoding, More Socket Programming</td>
+      <td><a href="/2-direct-link-networks">Local Links and Encoding, More Socket Programming</a></td>
       <td>Ch. 2 - Sections 2.1 - 2.5<br/>
 	  	<a href="/project-1">Assignment #1 Due</a>
 	  </td>
     </tr>
     <tr>
       <td>Week 4<br/>(9/20)</td>
-      <td>Ethernet and Wireless</td>
+      <td><a href="/2-direct-link-networks">Ethernet and Wireless</a></td>
       <td>Ch. 2 - Sections 2.6 - 2.8</td>
     </tr>
     <tr>
       <td>Week 5<br/>(9/27)</td>
-      <td>Switching and Bridging</td>
+      <td><a href="/3-internetworking">Switching and Bridging</a></td>
       <td>Ch. 3 - Section 3.1<br/>
 	  	<a href="https://bb.courses.maine.edu">Exam #1 (Online)</a>
 	  </td>
     </tr>
     <tr>
       <td>Week 6<br/>(10/4)</td>
-      <td>Basic Internetworking (IP)</td>
+      <td><a href="/3-internetworking">Basic Internetworking (IP)</a></td>
       <td>Ch 3. - Section 3.2<br/>
 	  	<a href="https://www.cisco.com/c/en/us/about/press/internet-protocol-journal/back-issues/table-contents-22/dhcp.html">Bootstrapping with BOOTP and DHCP</a><br/>
 		  <a href="/project-2">Assignment #2 Due</a>
@@ -60,7 +60,7 @@ title: Home
     </tr>
     <tr>
       <td>Week 7<br/>(10/11)</td>
-      <td>Routing</td>
+      <td><a href="/3-internetworking">Routing</a></td>
       <td>Ch. 3 - Section 3.3 and 3.5</td>
     </tr>
     <tr>
