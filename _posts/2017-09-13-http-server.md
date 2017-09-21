@@ -3,15 +3,29 @@ title: Project 2 - HTTP Server
 permalink: /project-2
 ---
 ## Specification
-In this assignment your goal is to create your own simple HTTP (web) server. Your server must allow (serve) files and subdirectories from a "document root" folder over a TCP port to HTTP clients (web browsers). Both the document root and TCP port must be configurable via command line parameters or a configuration file. Your server must be able to serve concurrent (simultaneous) requests as well as multiple requests over time.
+In this assignment your goal is to create your own simple HTTP (web) server.
+Your server must allow (serve) files and subdirectories from a "document root"
+folder over a TCP port to HTTP clients (web browsers). Both the document root
+and TCP port must be configurable via command line parameters or a configuration
+file. Your server must be able to serve concurrent (simultaneous) requests as
+well as multiple requests over time.
 
-<!--more-->
-If you are using a language, framework, or library that provides extensive HTTP infrastructure, you should not use that infrastructure or library. Your code should be written against the basic socket libraries provided by your language. Frameworks, like python's twisted, should **not** be used for your server code.
+<!--more--> 
+If you are using a language, framework, or library that provides extensive HTTP
+infrastructure, you should not use that infrastructure or library. Your code
+should be written against the basic socket libraries provided by your language.
+Frameworks, like python's twisted, should **not** be used for your server code.
 
 To begin work on Project 2 [accept the assignment in GitHub Classroom](https://classroom.github.com/a/4Brxp9IO).
 
 ## Request
-In an HTTP request, you must parse and utilize the request line. You may ignore any other request headers. This means you do not have to implement authentication & authorization, name based virtual hosting, and other header based HTTP features. Your server must be able to service text (html) and binary files (pictures, audio, etc..). Refer to the standard MIME types for appropriate headers that may need to be returned in the response.
+
+In an HTTP request, you must parse and utilize the request line. You may ignore
+any other request headers. This means you do not have to implement
+authentication & authorization, name based virtual hosting, and other header
+based HTTP features. Your server must be able to service text (html) and binary
+files (pictures, audio, etc..). Refer to the standard MIME types for appropriate
+headers that may need to be returned in the response.
 
 ```
 GET /pub/WWW/TheProject.html HTTP/1.1

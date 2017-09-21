@@ -12,7 +12,7 @@ Additionally you can use telnet, a simple text-based client to interact with
 your server.
 
 <!--more-->
-To begin work on Project 1 [accept the assignment in GitHub Classroom](https://classroom.github.com/a/laso4LN8).
+<!-- To begin work on Project 1 [accept the assignment in GitHub Classroom](https://classroom.github.com/a/laso4LN8). -->
 
 ## The Game
 The game is to guess a number between 1 and 100. After a client connects, the
