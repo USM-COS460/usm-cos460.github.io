@@ -85,7 +85,7 @@ title: Home
       <td>Presentation Formatting</td>
       <td>
         Ch. 7 - Section 7.1<br/>
-        Assignment #3 Due
+		    <a href="/project-3">Assignment #3 Due</a>
       </td>
     </tr>
     <tr>
