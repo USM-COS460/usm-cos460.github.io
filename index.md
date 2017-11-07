@@ -76,7 +76,7 @@ title: Home
     <tr>
       <td>Week 10<br/>(11/1)</td>
       <td>Presentation Formatting and Multimedia Data</td>
-      <td>Ch 6. - Sections 6.1, 6.3, 6.5, and 6.6<br/>
+      <td>Ch. 6. - Sections 6.1, 6.3, 6.5, and 6.6<br/>
       Ch. 7 - Sections 7.1 - 7.3<br/>
 	  	<a href="https://bb.courses.maine.edu">Exam #2 (online)</a>
 	  </td>
