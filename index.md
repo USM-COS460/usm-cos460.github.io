@@ -75,52 +75,52 @@ title: Home
     </tr>
     <tr>
       <td>Week 10<br/>(11/1)</td>
-      <td>Congestion Control</td>
+      <td>Presentation Formatting and Multimedia Data</td>
       <td>Ch 6. - Sections 6.1, 6.3, 6.5, and 6.6<br/>
+      Ch. 7 - Sections 7.1 - 7.3<br/>
 	  	<a href="https://bb.courses.maine.edu">Exam #2 (online)</a>
 	  </td>
     </tr>
     <tr>
       <td>Week 11<br/>(11/8 )</td>
-      <td>Presentation Formatting</td>
-      <td>
-        Ch. 7 - Section 7.1<br/>
-		    <a href="/project-3">Assignment #3 Due</a>
-      </td>
+      <td>Network Security</td>
+      <td>Ch. 8 - Sections 8.1, 8.4, 8.5, 8.6</td>
     </tr>
     <tr>
       <td>Week 12<br/>(11/15)</td>
-      <td>Multimedia Data</td>
-      <td>Ch. 7 - Sections 7.2 - 7.3<br/>
-	  	<a href="http://gaia.cs.umass.edu/networks/papers/MMCN08-0.2.pdf">YouTube network traffic at a campus network</a>
+      <td>Blockchain and BitCoin articles</td>
+      <td>
+        <a href="https://en.wikipedia.org/wiki/Bitcoin">Bitcoin (Wikipedia)</a><br/>
+        <a href="https://en.wikipedia.org/wiki/Blockchain">Blockchain (Wikipedia)</a><br/>
+        <a href="https://spectrum.ieee.org/computing/networks/blockchains-how-they-work-and-why-theyll-change-the-world">Blockchains: How They Work and Why They’ll Change the World</a><br/>
+        <!-- a href="http://gaia.cs.umass.edu/networks/papers/MMCN08-0.2.pdf">YouTube network traffic at a campus network</a -->
+        <a href="/project-3">Assignment #3 Due</a>
 	  </td>
     </tr>
     <tr>
       <td>(11/22)</td>
       <td>Thanksgiving Break</td>
-      <td> </td>
+      <td></td>
     </tr>
     <tr>
       <td>Week 13<br/>(11/29)</td>
-      <td>Network Security</td>
-      <td>Ch. 8 - Sections 8.1, 8.4, 8.5, 8.6<br/>
+      <td>Traditional Applications, Overlay Networks</td>
+      <td>Ch. 9 - Sections 9.1, 9.5<br/>
 	  	<a href="https://www.cisco.com/c/en/us/about/press/internet-protocol-journal/back-issues/table-contents-29/anatomy.html">A Look Inside Network Address Translators and Virtual Local Area Networks (VLANs)</a>
 	  </td>
     </tr>
     <tr>
       <td>Week 14<br/>(11/6)</td>
-      <td>Traditional Applications, Overlay Networks</td>
-      <td>Ch. 9 - Sections 9.1, 9.5<br/>
+      <td></td>
+      <td><br/>
 	  	<a href="https://www.nap.edu/read/10569/chapter/1">The Internet Under Crisis Conditions: Learning from September 11</a><br/>
 		<a href="http://www1.cs.columbia.edu/~salman/publications/skype1_4.pdf">An analysis of the Skype peer-to-peer Internet telephony protocol</a>
 	  </td>
     </tr>
     <tr>
       <td>Week 15<br/>(12/13)</td>
-      <td>Graduate Presentations</td>
+      <td>Project Work (no class)</td>
       <td><a href="https://bb.courses.maine.edu">Final Exam (online)</a><br/>
-	  	Graduate Presentations Due<br/>
-      Graduate Research Papers Due<br/>
 		  Assignment #4 Due
 	  </td>
     </tr>
