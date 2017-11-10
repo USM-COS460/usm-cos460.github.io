@@ -65,17 +65,20 @@ title: Home
     </tr>
     <tr>
       <td>Week 8<br/>(10/18)</td>
-      <td>Simple Demultiplexer (UDP), Reliable Byte Stream (TCP)</td>
-      <td>Ch. 5 - Section 5.1 and 5.2</td>
+      <td><a href="/5-end-to-end">
+        Simple Demultiplexer (UDP), Reliable Byte Stream (TCP)</a></td>
+        Remote Procedure Call (RPC), Real Time Protocol (RTP)</a></td>
+      <td>Ch. 5 - Section 5.1 - 5.5</td>
     </tr>
     <tr>
       <td>Week 9<br/>(10/25)</td>
-      <td>Remote Procedure Call (RPC), Real Time Protocol (RTP)</td>
-      <td>Ch. 5 - Section 5.3 - 5.5</td>
+      <td><a href="/6-review">
+        Part II Review</a>
+      <td></td>
     </tr>
     <tr>
       <td>Week 10<br/>(11/1)</td>
-      <td>Presentation Formatting and Multimedia Data</td>
+      <td><a href="/7-presentation">Presentation Formatting and Multimedia Data</a></td>
       <td>Ch. 6. - Sections 6.1, 6.3, 6.5, and 6.6<br/>
       Ch. 7 - Sections 7.1 - 7.3<br/>
 	  	<a href="https://bb.courses.maine.edu">Exam #2 (online)</a>
@@ -83,7 +86,7 @@ title: Home
     </tr>
     <tr>
       <td>Week 11<br/>(11/8 )</td>
-      <td>Network Security</td>
+      <td><a href="/8-network-security">Network Securityi</a></td>
       <td>Ch. 8 - Sections 8.1, 8.4, 8.5, 8.6</td>
     </tr>
     <tr>
