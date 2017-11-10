@@ -86,7 +86,7 @@ title: Home
     </tr>
     <tr>
       <td>Week 11<br/>(11/8 )</td>
-      <td><a href="/8-network-security">Network Securityi</a></td>
+      <td><a href="/8-network-security">Network Security</a></td>
       <td>Ch. 8 - Sections 8.1, 8.4, 8.5, 8.6</td>
     </tr>
     <tr>
@@ -107,7 +107,8 @@ title: Home
     </tr>
     <tr>
       <td>Week 13<br/>(11/29)</td>
-      <td>Traditional Applications, Overlay Networks</td>
+      <td><a href="/9-applications">
+        Traditional Applications, Overlay Networks</a></td>
       <td>Ch. 9 - Sections 9.1, 9.5<br/>
 	  	<a href="https://www.cisco.com/c/en/us/about/press/internet-protocol-journal/back-issues/table-contents-29/anatomy.html">A Look Inside Network Address Translators and Virtual Local Area Networks (VLANs)</a>
 	  </td>
