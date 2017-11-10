@@ -114,16 +114,17 @@ title: Home
 	  </td>
     </tr>
     <tr>
-      <td>Week 14<br/>(11/6)</td>
-      <td></td>
-      <td><br/>
+      <td>Week 14<br/>(12/6)</td>
+      <td>Project Work (no class)</td>
+      <td><!--
 	  	<a href="https://www.nap.edu/read/10569/chapter/1">The Internet Under Crisis Conditions: Learning from September 11</a><br/>
 		<a href="http://www1.cs.columbia.edu/~salman/publications/skype1_4.pdf">An analysis of the Skype peer-to-peer Internet telephony protocol</a>
+      -->
 	  </td>
     </tr>
     <tr>
       <td>Week 15<br/>(12/13)</td>
-      <td>Project Work (no class)</td>
+      <td>Finals Week</td>
       <td><a href="https://bb.courses.maine.edu">Final Exam (online)</a><br/>
 		  Assignment #4 Due
 	  </td>
