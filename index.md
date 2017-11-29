@@ -126,7 +126,7 @@ title: Home
       <td>Week 15<br/>(12/13)</td>
       <td>Finals Week</td>
       <td><a href="https://bb.courses.maine.edu">Final Exam (online)</a><br/>
-		  Assignment #4 Due
+		  <a href="/project-4">Assignment #4 Due</a>
 	  </td>
     </tr>
   </tbody>
