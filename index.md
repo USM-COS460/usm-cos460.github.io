@@ -68,22 +68,22 @@ title: Home
       <td>Week 8<br/>(10/18)</td>
       <td><a href="/5-end-to-end">
         Simple Demultiplexer (UDP), Reliable Byte Stream (TCP)
-        Remote Procedure Call (RPC), Real Time Protocol (RTP)</a></td>
+        Remote Procedure Call (RPC), Real Time Protocol (RTP)</a>
+      </td>
       <td>Ch. 5 - Section 5.1 - 5.5</td>
     </tr>
     <tr>
       <td>Week 9<br/>(10/25)</td>
-      <td><a href="/6-review">
-        Part II Review</a>
+      <td><a href="/6-review">Part II Review</a></td>
       <td></td>
     </tr>
     <tr>
       <td>Week 10<br/>(11/1)</td>
       <td><a href="/7-presentation">Presentation Formatting and Multimedia Data</a></td>
       <td>Ch. 6. - Sections 6.1, 6.3, 6.5, and 6.6<br/>
-      Ch. 7 - Sections 7.1 - 7.3<br/>
-	  	<a href="https://bb.courses.maine.edu">Exam #2 (online)</a>
-	  </td>
+        Ch. 7 - Sections 7.1 - 7.3<br/>
+	  	  <a href="https://bb.courses.maine.edu">Exam #2 (online)</a>
+	      </td>
     </tr>
     <tr>
       <td>Week 11<br/>(11/8 )</td>
@@ -97,9 +97,8 @@ title: Home
         <a href="https://en.wikipedia.org/wiki/Bitcoin">Bitcoin (Wikipedia)</a><br/>
         <a href="https://en.wikipedia.org/wiki/Blockchain">Blockchain (Wikipedia)</a><br/>
         <a href="https://spectrum.ieee.org/computing/networks/blockchains-how-they-work-and-why-theyll-change-the-world">Blockchains: How They Work and Why They’ll Change the World</a><br/>
-        <!-- a href="http://gaia.cs.umass.edu/networks/papers/MMCN08-0.2.pdf">YouTube network traffic at a campus network</a -->
         <a href="/project-3">Assignment #3 Due</a>
-	  </td>
+	    </td>
     </tr>
     <tr>
       <td>(11/22)</td>
@@ -112,23 +111,19 @@ title: Home
         Traditional Applications, Overlay Networks</a></td>
       <td>Ch. 9 - Sections 9.1, 9.5<br/>
 	  	<a href="https://www.cisco.com/c/en/us/about/press/internet-protocol-journal/back-issues/table-contents-29/anatomy.html">A Look Inside Network Address Translators and Virtual Local Area Networks (VLANs)</a>
-	  </td>
+	    </td>
     </tr>
     <tr>
       <td>Week 14<br/>(12/6)</td>
       <td>Project Work (no class)</td>
-      <td><!--
-	  	<a href="https://www.nap.edu/read/10569/chapter/1">The Internet Under Crisis Conditions: Learning from September 11</a><br/>
-		<a href="http://www1.cs.columbia.edu/~salman/publications/skype1_4.pdf">An analysis of the Skype peer-to-peer Internet telephony protocol</a>
-      -->
-	  </td>
+      <td></td>
     </tr>
     <tr>
       <td>Week 15<br/>(12/13)</td>
       <td>Finals Week</td>
       <td><a href="https://bb.courses.maine.edu">Final Exam (online)</a><br/>
-		  <a href="/project-4">Assignment #4 Due</a>
-	  </td>
+		    <a href="/project-4">Assignment #4 Due</a>
+	    </td>
     </tr>
   </tbody>
 </table>
