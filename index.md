@@ -67,7 +67,7 @@ title: Home
     <tr>
       <td>Week 8<br/>(10/18)</td>
       <td><a href="/5-end-to-end">
-        Simple Demultiplexer (UDP), Reliable Byte Stream (TCP)</a></td>
+        Simple Demultiplexer (UDP), Reliable Byte Stream (TCP)
         Remote Procedure Call (RPC), Real Time Protocol (RTP)</a></td>
       <td>Ch. 5 - Section 5.1 - 5.5</td>
     </tr>
