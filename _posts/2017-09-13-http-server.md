@@ -16,8 +16,6 @@ infrastructure, you should not use that infrastructure or library. Your code
 should be written against the basic socket libraries provided by your language.
 Frameworks, like python's twisted, should **not** be used for your server code.
 
-<!-- To begin work on Project 2 [accept the assignment in GitHub Classroom](https://classroom.github.com/a/4Brxp9IO). -->
-
 ## Request
 
 In an HTTP request, you must parse and utilize the request line. You may ignore
