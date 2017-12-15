@@ -1,11 +1,8 @@
 ---
 title: Home
 ---
-<!--h1 class="page-heading">Schedule</h1 -->
 
-<p>
-<em>NOTE: This offering of the course is past. It is no longer maintained here. Links may break.</em>
-</p>
+*NOTE: This offering of the course is past. It is no longer maintained here. Links may break.*
 
 <table id="schedule">
   <thead>
