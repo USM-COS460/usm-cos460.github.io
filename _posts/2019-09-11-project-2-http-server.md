@@ -10,7 +10,8 @@ and TCP port must be configurable via command line parameters or a configuration
 file. Your server must be able to serve concurrent (simultaneous) requests as
 well as multiple requests over time.
 
-<!--more--> 
+<!--more-->
+
 If you are using a language, framework, or library that provides extensive HTTP
 infrastructure, you should not use that infrastructure or library. Your code
 should be written against the basic socket libraries provided by your language.
