@@ -7,6 +7,7 @@ twitter_username: stephenhouser
 author: Stephen Houser
 email: houser@maine.edu
 description: University of Southern Maine, Computer Science
+future: false
 
 # Where things are
 #source:       .
