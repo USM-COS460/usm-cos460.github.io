@@ -8,12 +8,6 @@
 	padding-bottom: 0.25em;
 }
 
-/*
-.home tr:nth-child(even) {
-    background-color: ghostwhite;
-}
-*/
-
 .home tr th {
 	border-bottom: 1px solid black;
 }
@@ -47,12 +41,6 @@
 .home td {
 	vertical-align: top;
 }
-
-/*
-.page-heading:nth-child(1) {
-	margin-top: 0;
-}
-*/
 
 .page-heading {
 	margin-top: 1em;
