@@ -165,3 +165,26 @@ code {
   right: 1em;
   opacity: 0.1;
 }
+
+/* print filling whole paper */
+@media print {
+  .inverse {
+    border: 1px solid grey;
+    background: white;
+    color:black;
+    text-shadow: none;
+  }
+
+  .inverse h1, .inverse h2 {
+    color: darkgray;
+    line-height: 1.25em;
+  }
+
+  .noprint {
+    display: none;
+  }
+  
+  .has-continuation {
+    display: none;
+  }
+}
