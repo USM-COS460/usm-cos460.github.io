@@ -3,49 +3,284 @@ title: Foundations
 excerpt: Computer networking foundations; physical layer, direct link networks
 order: 2
 ---
+name: default
+layout: true
+---
+name: inverse
+layout: true
+class: center, middle, inverse
+---
+# Foundations
+## COS 460 Computer Networks
+## Fall 2019
+---
+layout: false
+# Foundations
 
-# Title
-### Subheading
+* Applications
 
-Notes: Examples notes
+* Requirements
+
+* Architecture
+
+* Performance
+
+* Socket Programming
+
+.right-bubble[
+There's a lot of background material in this section. Much of it you may already be familar with.
+]
 
 ---
+# Applications
+.left-column[
+## The Web
+]
+.right-column[
+Based on Hyper Text Transfer Protocol (HTTP)
 
-## Point 1 
+Designed for marked up text; Hypertext Markup Language (HTML)
 
-> Important quote here 
+Includes links, formatting, style, images, video, ...
 
-------
-
-## Point 1 -> Subpoint A
-
-* Subpoint
-* Subpoint
-
-Notes: Remmeber to say something funny here...
-
-------
-
-## Point 1 -> Subpoint B
-
-Hello point 1, subpoint b
+Incredibly flexible, often used by a number of applications
+]
+.subtle-image[![Browser Logos](figures/browser-wars-2016.jpg)]
 
 ---
+# Applications
+.left-column[
+## The Web
+## EMail
+]
+.right-column[
+The first *killer app* for The Internet
 
-## Point 2
+* Simple Mail Transport Protocol (SMTP)
 
-These bullets appear one at a time
+* Post Office Protocol (POP)
 
-* Fragment a <!-- .element: class="fragment" data-fragment-index="1" -->
-* Fragment b <!-- .element: class="fragment" data-fragment-index="2" -->
+* Internet Message Access Protocol (IMAP)
+
+Commonly over `HTTP` now via web browsers
+]
+.subtle-image[![Browser Logos](figures/gmail-outlook.jpg)]
 
 ---
+# Applications
+.left-column[
+## The Web
+## EMail
+## File Storage
+]
+.right-column[
+Even before *the cloud* there was network storage
 
-<!-- .slide: data-background="#81ceff" -->
-## Point 3
+* Network File System (NFS)
 
-* This slide is a different color!
+* Common Internet File System (CIFS)
 
-<a href="stephenhouser.com" style="color: red;">Hello!</a>
+* IP Small Computer System Interconnect (iSCSI)
 
-------
+...and, of course, over `HTTP` these days
+]
+.subtle-image[![Browser Logos](figures/qnap-nas.jpg)]
+
+---
+# Applications
+.left-column[
+## The Web
+## EMail
+## File Storage
+## Multimedia
+]
+.right-column[
+Often hidden behind web browsers or players
+
+Motion Picture Experts Group (MPEG) is most common:
+
+* Audio - Layers 1, 2, 3 (mp3)
+
+* Images - JPEG
+
+* Video - MPEG-1, ... MPEG-4
+]
+
+---
+# Applications
+.left-column[
+## The Web
+## EMail
+## File Storage
+## Multimedia
+## Everything Else
+]
+.right-column[
+There are too many other applications to enumerate
+
+* Social Media ([facebook](http://facebook.com), [twitter](http://twitter.com), [instagram](http://instagram.com))
+
+* News, sort of ([feedly](http://feedly.com), [reddit](http://reddit.com))
+
+* Document and Spreadsheet editing ([Google](http://docs.google.com), [Microsoft](http://office365.com), ...)
+
+* Slide presentations ([Google](http://docs.google.com), [Microsoft](http://office365.com), ...)
+]
+.subtle-image[![Browser Logos](figures/web2_logos1.jpg)]
+
+---
+template: inverse
+![Requirements](figures/requirements-dilbert.jpg)
+
+.credit[Source: [Dilbert.com](http://dilbert.com)]
+---
+template: default
+
+# Requiremements
+.left-column[
+## Basics
+]
+.right-column[
+* Connectivity - reliable communication between any points on the network
+
+* Cost-effective - make the *best* use of the available connectivity
+
+* Service Support - no limits to what you can do, supports the services you want
+]
+
+---
+# Requiremements
+.left-column[
+## Basics
+## Developers
+]
+.right-column[
+* Easy to use interfaces, libraries, easy to develop for
+
+* Secure, so you don't have to be?
+
+* Provides for common services without extra code
+
+Defines *useful channels* that understand the *application needs* and the *network ability*.
+]
+
+---
+# Requiremements
+.left-column[
+## Basics
+## Developers
+## Providers
+]
+.right-column[
+* Accounting capabilities ($$$)
+
+* Management capabilities - abilites to see and change what's going on
+
+* Flexible infrastructure - adapt to breakage, better paths, equipment changes
+
+* Automated infrastrcture - without lots of manual intervention
+]
+
+---
+# Requiremements
+.left-column[
+## Basics
+## Developers
+## Providers
+## Others
+]
+.right-column[
+Take two minutes to think about and write down
+
+.hilight[Who's requirements are we missing and what are they?]
+
+.center[.large[<span id="time" class="timer">02:00</span> minutes]
+<button onclick="twoMinutes('#time')">Timer</button>]
+]
+---
+template: inverse
+
+# “A doctor can bury his mistakes, but an architect can only advise his clients to plant vines.”
+&mdash; Frank Lloyd Wright
+
+---
+template: default
+# Achitecture
+.left-column[
+## Layering
+]
+.right-column[
+]
+
+---
+# Achitecture
+.left-column[
+## Layering
+## Encapsulation
+]
+.right-column[
+]
+
+---
+# Achitecture
+.left-column[
+## Layering
+## Encapsulation
+## Mux and Demux
+]
+.right-column[
+]
+
+---
+# Achitecture
+.left-column[
+## Layering
+## Encapsulation
+## Mux and Demux
+## ISO Model
+]
+.right[.bumpup[
+![ISO OSI Model](figures/OSI_Model_v1.svg)
+]]
+
+.credit[Source: [Wikipedia](https://en.wikipedia.org/wiki/Protocol_stack)]
+
+---
+# Achitecture
+.left-column[
+## Layering
+## Encapsulation
+## Mux and Demux
+## ISO Model
+## Internet Architecture
+]
+.right[
+Much simpler than the ISO OSI Model
+
+![Internet Layers](figures/internet-layers.png)
+
+Allows communication *around* middle layers
+]
+.credit[Source: [Systems Approach Book](https://book.systemsapproach.org)]
+---
+template: inverse
+# Architectures Compared
+![Layer Comparison](figures/osi-tcp-ip-models.jpg)
+
+.credit[Source: [Steve's Internet Guide](http://www.steves-internet-guide.com/internet-protocol-suite-explained/)]
+---
+template: default
+
+
+---
+class: center, middle
+
+# Questions?
+
+---
+template: inverse
+class: center, middle
+
+# fin
+## Foundations
+### COS 460 -- Computer Networks

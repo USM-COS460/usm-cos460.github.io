@@ -17,7 +17,8 @@ layout: none
 	<link rel="stylesheet" href="{{ "/assets/cos460.css" | relative_url }}">
 
 	<link rel="stylesheet" href="{{ "/assets/remarkjs.css" | relative_url }}" />
-	<script src="js/countdown.js" type="text/javascript"></script>
+	<script src="{{ "/notes/js/countdown.js" | relative_url }}" type="text/javascript"></script>
+	<script src="{{ "/notes/js/printslides.js" | relative_url }}" type=" text/javascript"> </script>
 
 	{% if jekyll.environment == 'production' and site.google_analytics %}
 	{% include google-analytics.html %}

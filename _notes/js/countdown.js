@@ -12,22 +12,31 @@ function startTimer(duration, display) {
 		if (--timer < 0) {
 			timer = duration;
 			clearInterval(interval);
+			display.classList.remove('timer-warning')
+			display.classList.add('timer-done')
+		} else if (timer < 10) {
+			display.classList.add('timer-warning')
 		}
 	}, 1000);
 
 	return interval;
 }
 
-
 var timer = null;
 function twoMinutes(timespan) {
+	var display = document.querySelector(timespan);
 	if (timer != null) {
 		clearInterval(timer);
 		timer = null;
+		display.classList.remove('timer-active');
+		display.classList.remove('timer-warning')
+		display.classList.remove('timer-done')
 	} else {
-		var twoMinutes = 60 * 2,
-			display = document.querySelector(timespan);
+		var twoMinutes = 60 * 2;
 		timer = startTimer(twoMinutes, display);
+		display.classList.remove('timer-warning')
+		display.classList.remove('timer-done')
+		display.classList.add('timer-active');
 	}
 
 };
