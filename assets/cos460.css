@@ -63,3 +63,10 @@
 .footer-col-3 p {
 	text-align: right;
 }
+
+.post-list li {
+	padding: 0.5em;
+}
+.post-list li:nth-child(even) {
+	background-color: #f7f7f7;
+}
