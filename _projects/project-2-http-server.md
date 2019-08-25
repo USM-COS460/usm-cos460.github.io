@@ -2,8 +2,7 @@
 title: Project 2 - HTTP Server
 permalink: /project-2
 ---
-## Specification
-In this assignment your goal is to create your own simple HTTP (web) server.
+Create your own simple HTTP (web) server.
 Your server must allow (serve) files and subdirectories from a "document root"
 folder over a TCP port to HTTP clients (web browsers). Both the document root
 and TCP port must be configurable via command line parameters or a configuration

@@ -1,8 +1,7 @@
 ---
 title: Home
 ---
-
-*Please see the [Syllabus](syllabus.html) for more details on the course, grading, schedule, etc.. This page is intended to be only a quick-reference for dates and course materials. Click on the class meeting topic or scroll down for lecture slides and notes.*
+*Please refer to the [Syllabus](syllabus.html) for full details of the course. This page is only a quick-reference for dates and course materials.*
 
 |  WEEK  | DATE  |                            TOPIC                            |                                           READING                                            |                                                                                                                                                                                                                                             NOTES & LINKS                                                                                                                                                                                                                                             |
 |--------|-------|-------------------------------------------------------------|----------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

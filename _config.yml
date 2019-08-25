@@ -1,13 +1,33 @@
 #
-title: USM COS 460/540 Computer Networks (Fall 2019)
+title: USM COS 460 Computer Networks (Fall 2019)
 theme: minima
 excerpt_separator: <!--more-->
-github_username: usm-cos460-f17
-twitter_username: stephenhouser
+github_username: usm-cos460
+#twitter_username: stephenhouser
 author: Stephen Houser
 email: houser@maine.edu
-description: University of Southern Maine, Computer Science
+description: >-
+  University of Southern Maine, 
+  Computer Science
 future: false
+
+collections:
+  notes:
+    output: true
+  projects:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "notes"
+    values:
+      layout: "remarkjs"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
 
 # Where things are
 #source:       .

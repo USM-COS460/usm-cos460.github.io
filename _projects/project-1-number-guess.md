@@ -2,9 +2,7 @@
 title: Project 1 - Number Guessing Server
 permalink: /project-1
 ---
-## Specification
-
-Your goal is to develop a TCP/IP based server that implements a number guessing
+Develop a TCP/IP based server that implements a number guessing
 game. This assignment is an introduction to TCP/IP socket programming and
 connecting clients and servers together. You will only be responsible for the
 server side of things, you can use “telnet” for testing and validation.

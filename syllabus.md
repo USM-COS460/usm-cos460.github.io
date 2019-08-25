@@ -6,7 +6,7 @@ USM Course Catalog: *A description of computer networks organized as a layered a
 
 The focus of the course will be on understanding and utilizing the Internet (TCP/IP) protocol stack. Students will write network client and server applications in addition to reading and discussing the theory behind modern data communication networks.
 
-The class is dual-listed as an undergraduate (COS 460) and graduate course (COS 540); graduate students will have additional reading and must prepare a presentation for the class (see below).
+The class is often dual-listed as an undergraduate (COS 460) and graduate course (COS 540); graduate students will have additional reading and must prepare a presentation for the class (see below).
 
 <!--more-->
 

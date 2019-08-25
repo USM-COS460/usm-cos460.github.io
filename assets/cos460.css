@@ -51,3 +51,15 @@
 .post-list h2 {
 	font-size: large;
 }
+
+.notes .post-link {
+	display: inline;
+}
+
+.notes blockquote {
+	margin-left: 1em;
+}
+
+.footer-col-3 p {
+	text-align: right;
+}

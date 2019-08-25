@@ -1,12 +1,8 @@
 ---
-title: Project 4 - TBD
-permalink: /project-4
+title: Project 3 - TBD
+permalink: /project-3
+published: false
 ---
-## COS 460/540 - Computer Networks
-# Project 4: TBD
-
-## Specification
-
 ** This project has not yet been released **
 
 <!--more-->
