@@ -11,6 +11,7 @@ public class SimplexTalkClient {
 		while (true) {
         	String data = reader.readLine(); 
 			System.out.println(data);
+			output.println(data);
 			output.flush();
 		}
     }
