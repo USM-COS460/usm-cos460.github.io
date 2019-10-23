@@ -1,5 +1,5 @@
 ---
-title: Project 3 (and 4) - MQTT Server
+title: Project 3 and 4 - MQTT Server
 permalink: /project-3
 ---
 For the next two projects we will be creating a lightweight, stripped down, and eventually distributed [MQTT][mqtt] [v3.1.1][mqtt-spec] compatible service. The project is broken into two parts; implementing the standalone server and then extending to a distributed system with your classmates. The first part has documented protocols to implement, the second we will design in-class and online together.
