@@ -4,6 +4,8 @@ permalink: /project-3
 ---
 For the next two projects we will be creating a lightweight, stripped down, and eventually distributed [MQTT][mqtt] [v3.1.1][mqtt-spec] compatible service. The project is broken into two parts; implementing the standalone server and then extending to a distributed system with your classmates. The first part has documented protocols to implement, the second we will design in-class and online together.
 
+<!--more-->
+
 ## Project 3 - Basic MQTT Server
 
 For this part of the assignment you will implement a stripped down [MQTT][mqtt] [v3.1.1][mqtt-spec] compatible server. You will use the [MQTT v3.1.1][mqtt-spec] as the outline of your implementation. You will not have to implement the entire specification (see below).
