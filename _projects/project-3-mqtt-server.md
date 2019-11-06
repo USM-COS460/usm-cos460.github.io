@@ -76,6 +76,39 @@ What do you need to implement or not from the specification?
 
     Implement as documented.
 
+### What will be tested
+
+* Your server should compile and run without errors.
+
+* Your server will be tested with the `mosquitto_sub` and `mosquitto_pub` clients. These are our _reference_ clients.
+
+* Connection: your server should accept and acknowledge a connection from single and multiple simultaneous test clients.
+
+* Disconnect: your server should properly disconnect without crashing.
+
+* Publish: your server should allow clients to publish to valid topics. Note that a topic that starts with a dollar sign (`$`) is not a valid publishing topic. Clients should not be caused to block when publishing. Clients can publish with QoS 0 and 1.
+
+* Subscribe I: your server should allow clients to subscribe to topics. Note that subscriptions are _asynchronous_ and that data will be published back to the client at any time. Clients should be able to subscribe to multiple topics. Clients should get data when it is ready and not wait or block unnecessarily.
+
+* Subscribe II: your server should honor the _wildcard_ characters in subscriptions.
+
+* Ping: your server should properly respond to ping requests and send them as needed to clients.
+
+* Concurrency: your server should service multiple clients at the same time and manage the publishing and subscribing of them. There should be no hardcoded limit on the number of clients, the number of topics, the number of subscriptions, or the number of messages published.
+
+Example Test:
+```
+$ mosquitto_sub -t 'test/#' &
+$ mosquitto_pub -t 'test/hello' -m 'hello'
+hello
+$ mosquitto_sub -h localhost -t 'test/hello' &
+$ mosquitto_pub -t 'test/hello' -m 'hello2'
+hello2
+hello2
+$ killall mosquitto_sub
+```
+NOTE: In this example a subscribing process is created (line 1) and put in the background. Then 'hello' is published to that a matching topic. The output shown (`hello`) is from the background process. Then a second more specific subscribing process is created and put in the background. The second publish to the same topic then results in both background threads showing the published message. Lastly the background processes are terminated (with `killall`).
+
 ## Project 4 - Distributed MQTT System
 
 For this part of the assignment you will extend your server to be part of a distributed system of servers with your classmates implementing theirs to do the same. In the end, all the servers will work together to service clients that connect to any of the endpoints (your servers).
