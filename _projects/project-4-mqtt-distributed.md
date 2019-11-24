@@ -2,7 +2,7 @@
 title: Project 4 - Distributed MQTT Server
 permalink: /project-4
 ---
-For this project, instead of writing code, you will design how to extend your broker from `Project 3` as a distributed system. That is, your broker should be able to connect to other brokers to manage a large number of clients. Your broker should still maintain compatibility with [MQTT][mqtt] [v3.1.1][mqtt-spec], so any suggested changes must not break exisitng clients and brokers.
+For this project, instead of writing code, you will design how to extend your broker from `Project 3` as a distributed system. That is, your broker should be able to connect to other brokers to manage a large number of clients. Your broker should still maintain compatibility with [MQTT][mqtt] [v3.1.1][mqtt-spec], so any suggested changes must not break existing clients and brokers.
 
 <!--more-->
 
