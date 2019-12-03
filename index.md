@@ -1,5 +1,5 @@
 ---
-title: Home
+title: COS 460
 ---
 *Please refer to the [Syllabus](syllabus.html) for full details of the course. This page is only a quick-reference for dates and course materials.*
 
