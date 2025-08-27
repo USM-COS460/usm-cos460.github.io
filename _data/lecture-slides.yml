@@ -1,0 +1,51 @@
+- order: 1
+  title: "Introduction"
+  subtitle: "Overview of the course; schedule, projects, grading, and policies"
+  slug: "introduction"
+- order: 10
+  title: "Foundations"
+  subtitle: "Data communications foundations; requirements, architecture, and performance"
+  slug: "1-foundations"
+- order: 11
+  title: "Socket Programming"
+  subtitle: "Basics of socket programming; client-server"
+  slug: "socket-programming"
+- order: 12
+  title: "Project 1 - Guessing Game"
+  subtitle: "First socket programming project; a simple guessing game"
+  slug: "p1-guessing-game"
+- order: 20
+  title: "Direct Links"
+  subtitle: "Direct links; encoding, framing, error detection, Ethernet, and WiFi"
+  slug: "2-direct-links"
+- order: 30
+  title: "Internetworking"
+  subtitle: ""
+  slug: "3-internetworking"
+- order: 40
+  hidde: true
+  title: "Advanced Internetworking"
+  subtitle: ""
+  slug: "4-advanced-internetworking"
+- order: 50
+  title: "End-to-End Protocols"
+  subtitle: ""
+  slug: "5-end-to-end-protocols"
+- order: 60
+  hidde: true
+  title: "Congestion Control"
+  subtitle: ""
+  slug: "6-congestion-control"
+- order: 70
+  title: "End-to-End Data"
+  subtitle: ""
+  slug: "7-end-to-end-data"
+- order: 80
+  title: "Network"
+  subtitle: ""
+  slug: "8-network-security"
+- order: 90
+  title: "Applications"
+  subtitle: ""
+  slug: "9-applications"
+

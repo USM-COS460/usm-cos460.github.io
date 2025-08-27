@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="82.814583mm"
+   height="122.76666mm"
+   viewBox="0 0 82.814583 122.76666"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
+   sodipodi:docname="multiplexing-card.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1"
+     inkscape:cx="244"
+     inkscape:cy="353.5"
+     inkscape:window-width="1440"
+     inkscape:window-height="1208"
+     inkscape:window-x="2028"
+     inkscape:window-y="72"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-43.920834,-55.033333)">
+    <rect
+       style="fill:#b9f4c8;fill-opacity:1;stroke-width:0.101;stroke-linecap:round"
+       id="rect1"
+       width="82.814583"
+       height="122.76666"
+       x="43.920834"
+       y="55.033333" />
+    <rect
+       style="fill:#1d49bd;fill-opacity:1;stroke-width:0.13483;stroke-linecap:round"
+       id="rect2"
+       width="82.814575"
+       height="14.552081"
+       x="43.920834"
+       y="55.033333" />
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#1d49bd;fill-opacity:1;stroke-width:0.101;stroke-linecap:round"
+       x="84.931252"
+       y="64.293747"
+       id="text2"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="fill:#ffffff;fill-opacity:1;stroke-width:0.101"
+         x="84.931252"
+         y="64.293747">MULTIPLEXING</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.101;stroke-linecap:round"
+       x="79.375"
+       y="82.020836"
+       id="text3"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.101"
+         x="79.375"
+         y="82.020836">Sender     _______</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.101;stroke-linecap:round"
+       x="80.168747"
+       y="94.720825"
+       id="text4"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         style="stroke-width:0.101"
+         x="80.168747"
+         y="94.720825">Sequence   ___/___</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4"
+       width="56.091667"
+       height="61.647915"
+       x="56.620831"
+       y="110.06665" />
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="83.87291"
+       y="108.47916"
+       id="text5"><tspan
+         sodipodi:role="line"
+         id="tspan5"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1"
+         x="83.87291"
+         y="108.47916">MESSAGE DATA</tspan></text>
+  </g>
+</svg>
