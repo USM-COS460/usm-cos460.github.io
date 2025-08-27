@@ -11,7 +11,7 @@ permalink: /slides
 		{% unless note.hide %}
 		<li>
 			<h2>
-				<a class="post-link" href="{{ note.slug }}/">{{ note.title | escape }}</a>
+    			<a class="post-link" href="/slides/{{ note.slug }}/">{{ note.title | escape }}</a>
 			</h2>
 			{{ note.subtitle }}
 		</li>
