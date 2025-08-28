@@ -3,7 +3,7 @@
   reading: "[Ch. 1 - Sections 1.1 - 1.3](https://book.systemsapproach.org/foundation/problem.html)"
   notes: >
     [A Brief History of the Internet](http://www.internetsociety.org/internet/what-internet/history-internet/brief-history-internet), [There and Back Again: A Packet's Tale (video)](https://www.youtube.com/watch?v=ewrBalT_eBM), [Beej's Guide to Network Programming (C)](http://beej.us/guide/bgnet/), [The Java Tutorial: All About Sockets](https://docs.oracle.com/javase/tutorial/networking/sockets/), [Python Network Programming](http://www.tutorialspoint.com/python/python_networking.htm)
-  slides: ["introduction", "1-foundations", "p1-guessing-game", "socket-programming"]
+  slides: ["introduction", "1-foundations", "socket-programming"]
 - week: 2
   topic: "Network Performance and More Socket Programming"
   reading: "[Ch. 1 - Sections 1.4 - 1.6](https://book.systemsapproach.org/foundation/performance.html)"
