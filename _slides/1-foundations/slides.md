@@ -2000,24 +2000,18 @@ Bandwidth
 
 :: right ::
 
-**Latency** is a meausre of the **time** that it takes a message to travel from one node to another. It's also called **delay**. We consider *latency* with the following equations:
+**Latency** is a meausre of the **time** that it takes a message to travel from one node to another. It's also called **delay**. We also call this the **propogation time**.
 
-<EquationBox>
+In the case of a single **bit**:
 
 $$
 \begin{align*}
-\textbf{latency}        &= \text{propogation} + \text{transmission} + \text{queueing delay} \\
 \textbf{popogation}     &= \text{distance} / \text{speed of light} \\
-\textbf{transmission}   &= \text{size} / \text{bandwidth}
 \end{align*}
 $$
-</EquationBox>
 
 - **distance** is the length of the medium.
 - **speed of light** is the effective speed of light.
-- **size** is the size of the data.
-- **bandwidth** is the data rate of the transmitted data.
-- **queuing delay** is the delay introduced by system components.
 
 ---
 layout: two-cols-title
@@ -2084,6 +2078,372 @@ Latency is usually measured in the **Round Trip Time (RTT)** for data to travers
 | Cross-country fiber | 10 Gbps | 4,000 km | 40 ms |
 
 These are approximate times to give an idea of the differences, your measurements may vary.
+
+---
+layout: two-cols-title
+columns: is-4
+title: performance final equation
+---
+
+:: title ::
+
+# Performance
+
+:: left ::
+
+Bandwidth
+
+Latency
+
+**Bandwidth & Latency**
+
+:: right ::
+
+The time to send data is a combination of **bandwidth** and **latency**.
+
+**Badnwidth** tells how much data per unit of time we can send and **latency** how long it takes to get there.
+
+$$
+\begin{align*}
+\textbf{popogation}     &= \text{distance} / \text{speed of light} \\
+\textbf{transmit}       &= \text{size} / \text{bandwidth} \\
+\end{align*}
+$$
+
+The total time to send $size$ of data is
+
+$$
+\begin{align*}
+\textbf{total time} &= \text{propogation} + \text{transmission} + \text{queueing delay}
+\end{align*}
+$$
+
+**Queuing delay** represents any delays introduced by our equipment. We will ignore it for now.
+
+---
+layout: two-cols-title
+columns: is-4
+title: performance cards setup
+---
+
+:: title ::
+
+# Performance
+
+:: left ::
+
+Bandwidth
+
+Latency
+
+**Bandwidth & Latency**
+
+:: right ::
+
+## Let's put this in practice with a card game
+
+- Each row take a suit of cards (13) from the deck.
+- The window side are **senders**, the other side are **receivers**.
+- All the seats in-between are **links**, with a **latency** of 1 second (1 seat per second).
+- Each card represents $1 Mbit = 0.125 MByte$ of data.
+- The front row has **bandwidth = 1Mbps** (1 card per second).
+- The second row has **bandwidth = 2Mbps** (2 cards per second).
+- And so on for each row... the **fifth row** is **5Mbps** (5 cards).
+
+---
+layout: two-cols-title
+columns: is-4
+title: performance cards round 1
+---
+
+:: title ::
+
+# Performance
+
+:: left ::
+
+Bandwidth
+
+Latency
+
+**Bandwidth & Latency**
+
+:: right ::
+
+## The Bandwidth Game
+
+At each second (my count):
+
+- Take a card equal to your **bandwidth** from the person on your left.
+- For the **front row**, that will be **1 card**
+- For the **second row**, that will be **2 cards**.
+- And so on... **5 cards** for the **fifth row**.
+- Keep track of the time when the **receiver** receives the last card.
+
+<v-click>
+
+<Question>
+
+## How long does it take to transfer the data in each row?
+
+</Question>
+
+</v-click>
+
+---
+layout: two-cols-title
+columns: is-4
+title: performance cards round 1 answer
+---
+
+:: title ::
+
+# Performance
+
+:: left ::
+
+Bandwidth
+
+Latency
+
+**Bandwidth & Latency**
+
+:: right ::
+
+$$
+\textbf{1st Row\ \ }
+
+\begin{align*}
+latency   &= 1 \text{s (per seat)} &&\rightarrow 5 \text{s*} \\
+bandwidth &= 1 \text{Mbps} &&\rightarrow \text{transmit} = 13/1 {s} \\
+transfer\ time      &= 5 \text{s} + (1 \text{Mb} \times 13 \text{s}) &&= \textbf{18s}
+\end{align*}
+$$
+
+$$
+\textbf{2nd Row\ \ }
+
+\begin{align*}
+latency   &= 1 \text{s (per seat)} &&\rightarrow 5 \text{s*} \\
+bandwidth &= 2 \text{Mbps} &&\rightarrow \text{transmit} = 13/2 = 6.5 {s} \\
+transfer\ time      &= 5 \text{s} + (1 \text{Mb} \times 6.5 \text{s}) &&= \textbf{12s}
+\end{align*}
+$$
+
+$$
+\textbf{5th Row\ \ }
+
+\begin{align*}
+latency   &= 1 \text{s (per seat)} &&\rightarrow 5 \text{s*} \\
+bandwidth &= 5 \text{Mbps} &&\rightarrow \text{transmit} = 13/5 = 2.6 {s} \\
+transfer\ time      &= 5 \text{s} + (1 \text{Mb} \times 2.6 \text{s}) &&= \textbf{8s}
+\end{align*}
+$$
+
+\* The first exchange is **sending** the data, count only **exchanges**.
+
+---
+layout: two-cols-title
+columns: is-4
+title: performance cards round 1 summary
+---
+
+:: title ::
+
+# Performance
+
+:: left ::
+
+Bandwidth
+
+Latency
+
+**Bandwidth & Latency**
+
+:: right ::
+
+No matter how much **bandwidth** we have. Transfer will be limited by the **latency** of the link.
+
+$$
+\textbf{5th Row\ \ }
+
+\begin{align*}
+latency   &= 1 \text{s (per seat)} &&\rightarrow 5 \text{s*} \\
+bandwidth &= 5 \text{Mbps} &&\rightarrow \text{transmit} = 13/5 = 2.6 {s} \\
+transfer\ time      &= 5 \text{s} + (1 \text{Mb} \times 2.6 \text{s}) &&= \textbf{8s}
+\end{align*}
+$$
+
+<Question>
+
+## What is the **minimum** transmission time?
+
+</Question>
+
+<v-click>
+
+$$
+\begin{align*}
+latency   &= 1 \text{s (per seat)} &&\rightarrow 5 \text{s*} \\
+bandwidth &= \infty\ \text{Mbps} &&\rightarrow \text{transmit} = 13/\infty = 0 {s} \\
+transfer\ time      &= 5 \text{s} + (1 \text{Mb} \times 0 \text{s}) &&= \textbf{5s}
+\end{align*}
+$$
+
+</v-click>
+
+---
+layout: two-cols-title
+columns: is-4
+title: performance cards setup latency
+---
+
+:: title ::
+
+# Performance
+
+:: left ::
+
+Bandwidth
+
+Latency
+
+**Bandwidth & Latency**
+
+:: right ::
+
+## What if the latency were less?
+
+- Pass the opposite direction (receivers on window side)
+- All rows have a **bandwidth** of **1Mbps** (1 card per second).
+
+- The **5th / back** row has **latency = 1s** (just like the front row in our last game).
+- The **4th** row has **latency = 0.5s**.
+- The **3rd** row has **latency = 0.3s**.
+- The **2nd** row has **latency = 0.25s**.
+- The **1st / front** row has **latency = 0.2s**.
+
+---
+layout: two-cols-title
+columns: is-4
+title: performance cards round 1
+---
+
+:: title ::
+
+# Performance
+
+:: left ::
+
+Bandwidth
+
+Latency
+
+**Bandwidth & Latency**
+
+:: right ::
+
+## The Latency Game
+
+At each second (my count):
+
+- **5th row** pass 1 card to the person on your left.
+- **4th row** pass 1 card to the person 2 seats to your left.
+- **3rd row** pass 1 card to the person 3 seats to your left.
+- **2nd row** pass 1 card to the person 4 seats to your left.
+- **1st row** pass 1 card to the person **5 seats** to your left.
+- Keep track of the time when the **receiver** receives the last card.
+
+<v-click>
+
+<Question>
+
+## How long does it take to transfer the data in each row?
+
+</Question>
+
+</v-click>
+
+---
+layout: two-cols-title
+columns: is-4
+title: performance cards round 2 answer
+---
+
+:: title ::
+
+# Performance
+
+:: left ::
+
+Bandwidth
+
+Latency
+
+**Bandwidth & Latency**
+
+:: right ::
+
+$$
+\textbf{5th Row\ \ }
+
+\begin{align*}
+latency   &= 1 \text{s (per seat)} &&\rightarrow 5 \text{s} \\
+bandwidth &= 1 \text{Mbps} &&\rightarrow \text{transmit} = 13 {s} \\
+transfer\ time  &= 5 \text{s} + (1 \text{Mb} \times 13 \text{s}) &&= \textbf{18s}
+\end{align*}
+$$
+
+$$
+\textbf{4th Row\ \ }
+
+\begin{align*}
+latency   &= 0.5 \text{s (per seat)} &&\rightarrow 2.5 \text{s} \\
+bandwidth &= 1 \text{Mbps} &&\rightarrow \text{transmit} = 13 {s} \\
+transfer\ time  &= 2.5 \text{s} + (1 \text{Mb} \times 13 \text{s}) &&= \textbf{15s}
+\end{align*}
+$$
+
+$$
+\textbf{1st Row\ \ }
+
+\begin{align*}
+latency   &= 0.2 \text{s (per seat)} &&\rightarrow 1 \text{s} \\
+bandwidth &= 5 \text{Mbps} &&\rightarrow \text{transmit} = 13 {s} \\
+transfer\ time &= 1 \text{s} + (1 \text{Mb} \times 13 \text{s}) &&= \textbf{14s}
+\end{align*}
+$$
+
+The **minimum** transfer time with **0s latency** would be **13s**.
+
+---
+layout: two-cols-title
+columns: is-4
+title: performance break activity
+---
+
+:: title ::
+
+# Performance
+
+:: left ::
+
+Bandwidth
+
+Latency
+
+**Bandwidth & Latency**
+
+:: right ::
+
+<Question>
+
+# When are these equal?
+
+## When does bandwidth dominate transmission time? 
+## When does latency?
+
+</Question>
 
 ---
 layout: two-cols-title

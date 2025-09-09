@@ -1,0 +1,1 @@
+import{_ as e}from"./AdmonitionType-XrVRWpaJ.js";import{b as s,o as n,w as r,j as a}from"./modules/vue-DNA4_otk.js";import{u as _}from"./slidev/context-DTmRCjHT.js";const l={__name:"Note",setup(i){return _(),(t,m)=>{const o=e;return n(),s(o,{type:"info",title:"Note"},{default:r(()=>[a(t.$slots,"default")]),_:3})}}};export{l as _};
