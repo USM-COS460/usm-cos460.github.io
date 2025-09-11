@@ -13,13 +13,14 @@ download: true
 
 of data communication networks
 
-
 ---
+
 layout: two-cols-title
 columns: is-4
 ---
 
 :: title ::
+
 # Objectives
 
 :: left ::
@@ -48,6 +49,7 @@ flowchart LR
 
 *Doing that thing Computer Scientists do...*
 ---
+
 layout: quote
 color: sky-light
 quotesize: text-m
@@ -58,6 +60,7 @@ author: 'Talking Heads'
 “*How did I get here?*”
 
 ---
+
 layout: two-cols-title
 columns: is-4
 ---
@@ -70,7 +73,6 @@ columns: is-4
 
 **The Web**
 
-
 :: right ::
 
 Based on Hypertext Transfer Protocol (HTTP)
@@ -81,8 +83,8 @@ Includes linking, descriptive formatting, style, images, video, …
 
 Incredibly flexible, often used by higher-level applications
 
-
 ---
+
 layout: two-cols-title
 columns: is-4
 ---
@@ -97,7 +99,6 @@ The Web
 
 **Email**
 
-
 :: right ::
 
 The first killer app for the Internet
@@ -111,6 +112,7 @@ The first killer app for the Internet
 Now more common to access email via web (HTTP).
 
 ---
+
 layout: two-cols-title
 columns: is-4
 ---
@@ -140,6 +142,7 @@ Even before the cloud there was network storage
 …and of course, over HTTP these days
 
 ---
+
 layout: two-cols-title
 columns: is-4
 ---
@@ -171,6 +174,7 @@ Motion Picture Experts Group (MPEG) is most common
 - Video - MPEG-2, …, MPEG-4
 
 ---
+
 layout: two-cols-title
 columns: is-4
 ---
@@ -206,6 +210,7 @@ There are too many other applications to enumerate
 - Slide presentations (Google, Microsoft, …)
 
 ---
+
 layout: center
 ---
 
@@ -218,6 +223,7 @@ Source: [Gerald Maduabuchi(Quora), Phillip Webber](https://www.quora.com/What-is
 </div>
 
 ---
+
 layout: center
 ---
 
@@ -228,16 +234,19 @@ In groups of 2-3, Google the "tech stack" for a website or web based application
 <Question>
 
 # What technologies do they use?
+
 </Question>
 
 <Question>
 
-# Which are _network_ technologies?
+# Which are *network* technologies?
+
 </Question>
 
 <CountdownTimer :minutes="5" :seconds="0" />
 
 ---
+
 layout: default
 ---
 
@@ -254,11 +263,13 @@ layout: default
 - What else did you find?
 
 ---
+
 layout: two-cols-title
 columns: is-4
 ---
 
 :: title ::
+
 # Objectives
 
 :: left ::
@@ -285,9 +296,10 @@ flowchart LR
 
 ::default::
 
-## Let's start looking at *requirements* first...
+## Let's start looking at *requirements* first
 
 ---
+
 layout: center
 title: dilbert requirements
 ---
@@ -295,6 +307,7 @@ title: dilbert requirements
 ![dilbert requirements](/requirements-dilbert.jpg)
 
 ---
+
 layout: two-cols-title
 title: requirements
 ---
@@ -304,6 +317,7 @@ title: requirements
 # Requirements
 
 :: left ::
+
 ```mermaid  {scale: .65}
 flowchart LR
     classDef invisible fill:none,stroke:none
@@ -340,6 +354,7 @@ Some requirements are common across all perspectives.
 Some requirements are specific to a perspective; users, developers, or service provider.
 
 ---
+
 layout: two-cols
 columns: is-7
 title: common requirements
@@ -390,6 +405,7 @@ These are basic requirements across all perspectives.
 - The network needs to **support the services** we want to use.
 
 ---
+
 layout: two-cols-title
 columns: is-4
 title: scalable connectivity
@@ -439,7 +455,7 @@ architecture-beta
 
 <Definition>
 
-### ***Network***: Two or more **nodes** connected by a physical **link**, or two or more **networks** connected by a node.
+### ***Network***: Two or more **nodes** connected by a physical **link**, or two or more **networks** connected by a node
 
 </Definition>
 
@@ -448,9 +464,8 @@ architecture-beta
 
 Some other relevant terms; a **host** is a type of node, a **switch** or **router** are internally a node and a link.
 
-
-
 ---
+
 layout: two-cols-title
 columns: is-4
 title: cost effective
@@ -465,7 +480,6 @@ title: cost effective
 Scalable Connectivity
 
 **Cost-effective**
-
 
 :: right ::
 
@@ -488,10 +502,11 @@ graph LR
         routerB<-->nodeZ["🖥️<br/>Node Z"]
     end
 ```
+
 There are a few common ways we can accomplish this.
 
-
 ---
+
 layout: two-cols
 columns: is-8
 ---
@@ -499,6 +514,7 @@ columns: is-8
 :: left ::
 
 # Sharing the Wire
+
 ## A Mutiplexing Simulation
 
 Let's play a card game to explore different ways to **multiplex** data over a single link.
@@ -516,8 +532,8 @@ Work in groups of 4. Each group gets an **Instruction Sheet** and Game Area and 
 
 e.x. Sequence 1="D", 2="o", 3="g"
 
-
 ---
+
 layout: two-cols
 columns: is-8
 title: sharing the wire - round 1
@@ -526,6 +542,7 @@ title: sharing the wire - round 1
 :: left ::
 
 # Sharing the Wire
+
 # Round 1
 
 The **Time Keeper**  (Instructor) will be the system clock. Players can only act when the time keeper says to act and they can only take one action!
@@ -540,8 +557,8 @@ After time ends, the receiver decodes the messages sent by the senders.
 
 ![multiplexing board setup](/multiplexing-board-setup.svg)
 
-
 ---
+
 layout: two-cols
 columns: is-8
 title: sharing the wire - round 2
@@ -550,6 +567,7 @@ title: sharing the wire - round 2
 :: left ::
 
 # Sharing the Wire
+
 # Round 2
 
 The **Time Keeper**  (Instructor) will be the system clock. Senders can only act when the time keeper says to act and they can only take one action!
@@ -566,6 +584,7 @@ After time ends, the receiver decodes the messages sent by the senders.
 ![multiplexing board setup](/multiplexing-board-setup.svg)
 
 ---
+
 layout: two-cols
 columns: is-8
 title: sharing the wire - round 3
@@ -574,6 +593,7 @@ title: sharing the wire - round 3
 :: left ::
 
 # Sharing the Wire
+
 # Round 3
 
 The **Time Keeper**  (Instructor) will be the system clock. Senders can only act when the time keeper says to act and they can only take one action!
@@ -590,6 +610,7 @@ After time ends, the receiver decodes the messages sent by the senders.
 ![multiplexing board setup](/multiplexing-board-setup.svg)
 
 ---
+
 title: sharing the wire - discussion
 ---
 
@@ -598,20 +619,21 @@ title: sharing the wire - discussion
 <v-clicks depth="2">
 
 - **Round 1** - Frequency Division
-    - Each sender has $1/3$ the total **bandwidth** and sends $1/3$ of a packet at a time.
-    - Wasted lane when sender has no more data to send. **not efficient**
+  - Each sender has $1/3$ the total **bandwidth** and sends $1/3$ of a packet at a time.
+  - Wasted lane when sender has no more data to send. **not efficient**
 
 - **Round 2** - Time Division
-    - Each sender has full bandwidth for $1/3$ of the time.
-    - Wasted time slots when sender has no more data to send. **not efficient**
+  - Each sender has full bandwidth for $1/3$ of the time.
+  - Wasted time slots when sender has no more data to send. **not efficient**
 
 - **Round 3** - Packet Switching
-    - No wasted lane or time slots
-    - Senders collide when sending.
-    - Receiver may need to put packets back in order.
+  - No wasted lane or time slots
+  - Senders collide when sending.
+  - Receiver may need to put packets back in order.
 </v-clicks>
 
 ---
+
 layout: two-cols-title
 columns: is-4
 title: frequency division
@@ -661,6 +683,7 @@ The empty boxes above represent when no sender has any more data to send, their 
 This is how broadcast radio and television work. Each station gets a sub-band of the entire band. They broadcast continuiously and thus always have "data" to send.
 
 ---
+
 layout: two-cols-title
 columns: is-4
 title: time division
@@ -746,6 +769,7 @@ The empty boxes above represent when a sender has no more data to send, their ti
 During their time slot they use the *entire band* so can send $3×$ the amount of data during the time slot as with frequency division.
 
 ---
+
 layout: two-cols-title
 columns: is-4
 title: time division compact
@@ -800,15 +824,15 @@ block-beta
     class t0,t1,t2,t3,t4,t5,t6,t7,t8,t9,t10,t11 invisible
 ```
 
-The empty boxes above represent when a sender has no more data to send, their 
+The empty boxes above represent when a sender has no more data to send, their
 time slot goes unused.
 
 During their time slot they use the *entire band* so can send $3×$ the amount of data during the time slot as with frequency division.
 
 This collapsed version is a bit more compact and easy to look at. Note the "A" instead of "a" to represent $3×$ the data in the packet.
 
-
 ---
+
 layout: two-cols-title
 columns: is-4
 title: packet switching
@@ -828,7 +852,7 @@ Scalable Connectivity
 
 ## Packet Switching
 
-Like **Time Division** senders use the entire band to send data during fixed size time slots. 
+Like **Time Division** senders use the entire band to send data during fixed size time slots.
 
 ```mermaid { scale: 1 }
 block-beta
@@ -862,6 +886,7 @@ block-beta
     class C13,C24,C23,C24 emptyBlueBox
     class t0,t1,t2,t3,t4,t5,t6,t7,t8,t9,t10,t11 invisible
 ```
+
 With **Packet Switching** senders can send **whenever they have data and the link is idle**.
 
 The empty boxes above represent when **no sender** has data to send. The time slots do not go unused. If there were **any data** from **any sender** they could use those slots to send their data.
@@ -869,6 +894,7 @@ The empty boxes above represent when **no sender** has data to send. The time sl
 As you likely discovered, there can be **collisions** when multiple senders try to send. We will deal with those later.
 
 ---
+
 layout: two-cols-title
 columns: is-4
 title: multiplexing summary
@@ -886,7 +912,7 @@ Scalable Connectivity
 
 :: right ::
 
-## Frequency Division Multiplexing 
+## Frequency Division Multiplexing
 
 ```mermaid { scale: 1 }
 block-beta
@@ -898,55 +924,20 @@ block-beta
     classDef emptyBlueBox stroke:#0000ee,stroke-width:2px,color:white;
 
     columns 12
-    A1["a"]
-    B1["b"]
-    C1["c"]
-    A2["a"]
-    B2["b"]
-    C2["c"]
-    A3["a"]
-    B3["b"]
-    C3[" "]
-    A4["a"]
-    B4[" "]
-    C4[" "]
-
-    A11["a"]
-    B11["b"]
-    C11["c"]
-    A12["a"]
-    B12["b"]
-    C12["c"]
-    A13["a"]
-    B13["b"]
-    C13[" "]
-    A14["a"]
-    B14[" "]
-    C14[" "]
-
-    A21["a"]
-    B21["b"]
-    C21["c"]
-    A22["a"]
-    B22["b"]
-    C22["c"]
-    A23["a"]
-    B23["b"]
-    C23[" "]
-    A24["a"]
-    B24[" "]
-    C24[" "]
-
+    A0["a"] A1["a"] A2["a"] A3["a"] A4["a"] A5["a"] A6["a"] A7["a"] A8["a"] A9["a"] A10["a"] A11["a"]
+    B0["b"] B1["b"] B2["b"] B3["b"] B4["b"] B5["b"] B6["b"] B7["b"] B8["b"] B9[" "] B10[" "] B11[" "]
+    C0["c"] C1["c"] C2["c"] C3["c"] C4["c"] C5["c"] C6[" "] C7[" "] C8[" "] C9[" "] C10[" "] C11[" "]
     t0 t1 t2 t3 t4 t5 t6 t7 t8 t9 t10 t11
 
-    class A1,A2,A3,A4,A11,A12,A13,A14,A21,A22,A23,A24 redBox
-    class B1,B2,B3,B11,B12,B13,B21,B22,B23 greenBox
-    class C1,C2,C11,C12,C21,C22 blueBox
-    class B4,B14,B24 emptyGreenBox
-    class C3,C4,C13,C24,C23,C24 emptyBlueBox
+    class A0,A1,A2,A3,A4,A5,A6,A7,A8,A9,A10,A11 redBox
+    class B0,B1,B2,B3,B4,B5,B6,B7,B8 greenBox
+    class C0,C1,C2,C3,C4,C5 blueBox
+    class B9,B10,B11 emptyGreenBox
+    class C6,C7,C8,C9,C10,C11 emptyBlueBox
     class t0,t1,t2,t3,t4,t5,t6,t7,t8,t9,t10,t11 invisible
 ```
-## Time Division Multiplexing 
+
+## Time Division Multiplexing
 
 ```mermaid { scale: 1 }
 block-beta
@@ -1017,6 +1008,7 @@ block-beta
 ```
 
 ---
+
 layout: two-cols-title
 columns: is-4
 title: support common services
@@ -1048,6 +1040,7 @@ It needs to define **useful channels** that understand the **application needs**
 - Command and Control (e.g. "turn on light")
 
 ---
+
 layout: two-cols-title
 columns: is-4
 title: reliable and manageable
@@ -1083,6 +1076,7 @@ The network can continue to work with new services and parameters.
 - Supports new applications
 
 ---
+
 layout: two-cols
 title: common requirements review
 ---
@@ -1131,9 +1125,8 @@ These are basic requirements across all perspectives.
 
 - The network needs to **support the services** we want to use.
 
-
-
 ---
+
 layout: two-cols
 title: user requirements
 ---
@@ -1182,6 +1175,7 @@ Users want an inexpensive and fast network that supports the applications they w
 - Reliable and recovers quickly when failures occur
 
 ---
+
 layout: two-cols
 title: developer requirements
 ---
@@ -1230,6 +1224,7 @@ Developers want a network that provides well thought out libraries to develop ag
 - Has good error handling and retry mechanisims
 
 ---
+
 layout: two-cols
 title: provider requirements
 ---
@@ -1278,6 +1273,7 @@ Service providers (ISPs) want a future-proof network that has good tools for man
 - Reliable to avoid downtime
 
 ---
+
 layout: center
 title: missing requirements
 ---
@@ -1295,6 +1291,7 @@ Take a couple of minutes to think about and write down
 <CountdownTimer :minutes="2" :seconds="30" />
 
 ---
+
 layout: two-cols
 columns: is-7
 title: architecture
@@ -1340,6 +1337,7 @@ There are two **major architectures** in use today; the **ISO/OSI** model and th
 They both are described as **layers** that interact with each other via well-defined **protocols**.
 
 ---
+
 layout: two-cols-title
 columns: is-4
 title: architecture layers
@@ -1376,9 +1374,11 @@ block-beta
     host -- "API" --> hardware
   end
 ```
+
 This is a simplified view of the layers in a network stack.
 
 ---
+
 layout: two-cols-title
 columns: is-4
 title: architecture protocols
@@ -1431,10 +1431,11 @@ columns 3
 lowA -- "Peer-to-peer<br/>Interafce" --> lowB
 lowB --> lowA
 ```
+
 This peer-to-peer interface is called a **Protocol**.
 
-
 ---
+
 layout: two-cols-title
 columns: is-4
 title: architecture encapsulation
@@ -1501,8 +1502,8 @@ block-beta
 
 This peer-to-peer interface is called a **Protocol**.
 
-
 ---
+
 layout: two-cols-title
 columns: is-4
 title: architecture encapsulation
@@ -1560,6 +1561,7 @@ block-beta
 ```
 
 ---
+
 layout: two-cols-title
 columns: is-4
 title: architecture encapsulation multiplex
@@ -1604,6 +1606,7 @@ graph LR
 ```
 
 ---
+
 layout: two-cols-title
 columns: is-4
 title: architecture encapsulation demultiplex
@@ -1629,7 +1632,6 @@ Protocols
 When receiving data, start a the bottom and work upwards.
 
 The **host** field of the *host-to-host* layer indicates which *host* the data is for. If we are the **destination host** then the unwapped data can be passed to the next layer up.
-
 
 ```mermaid { scale: 1 }
 block-beta
@@ -1658,10 +1660,11 @@ block-beta
         host2 --> process2
     end
 ```
+
 The **process** field similarly tells *which process* on the host to deliver the data to.
 
-
 ---
+
 layout: two-cols-title
 columns: is-4
 title: architecture ISO/OSI model
@@ -1694,9 +1697,11 @@ The two are interoperable but their layers do not have a direct correspondence t
 <ExamTip>
 
 ### These two models will be our focus throughout the course. **You should memorize them**
+
 </ExamTip>
 
 ---
+
 layout: two-cols-title
 columns: is-4
 title: architecture ISO/OSI model
@@ -1746,6 +1751,7 @@ block-beta
 -->
 
 ---
+
 layout: two-cols-title
 columns: is-4
 title: architecture internet model
@@ -1776,8 +1782,8 @@ The Internet model has fewer layers and allows calling any of them from any othe
 
 It tends to be a more popular architecture for developers dur to its relaxed calling nature.
 
-
 ---
+
 layout: two-cols-title
 columns: is-4
 title: architecture comparison
@@ -1879,8 +1885,8 @@ The Internet model *network* layer performs the functions on the OSI network, da
 </div>
 </div>
 
-
 ---
+
 layout: two-cols
 columns: is-7
 title: performance
@@ -1925,6 +1931,7 @@ In this section we will formally define them and see how to measure the performa
 This will help us understand not only how to benchmark network performance, but also the factors that can be tuned to affect that performance.
 
 ---
+
 layout: two-cols-title
 columns: is-4
 title: performance bandwitdh
@@ -1947,10 +1954,12 @@ While this is true, **bandwidth** is actually the *width of the frequency band* 
 ![throughput](/throughput.png)
 
 ---
+
 layout: two-cols-title
 columns: is-4
 title: performance bandwitdh example
 ---
+
 :: title ::
 
 # Performance
@@ -1965,8 +1974,8 @@ Consider these example **bandwidth** calculations:
 
 - On a **10 Mbps** (mega bits per second) link
 
-    - data is transmitted at **10 million bits per second**
-    - each bit takes **0.1 μS** to transmit
+  - data is transmitted at **10 million bits per second**
+  - each bit takes **0.1 μS** to transmit
 
 - On a **20 Mpbs** link, each bit takes **0.05 μs**.
 
@@ -1975,6 +1984,7 @@ Consider these example **bandwidth** calculations:
 <Question>
 
 #### How long does it take to transmit a single bit on a on a **1 Gbps** link?
+
 </Question>
 
 <v-click>
@@ -1983,6 +1993,7 @@ Consider these example **bandwidth** calculations:
 </v-click>
 
 ---
+
 layout: two-cols-title
 columns: is-4
 title: performance latency
@@ -2014,6 +2025,7 @@ $$
 - **speed of light** is the effective speed of light.
 
 ---
+
 layout: two-cols-title
 columns: is-4
 title: performance latency speed of light
@@ -2049,6 +2061,7 @@ Don't worry, the speed of light is still constant, just constant on different me
 </Note>
 
 ---
+
 layout: two-cols-title
 columns: is-4
 title: performance latency typical
@@ -2063,6 +2076,7 @@ title: performance latency typical
 Bandwidth
 
 **Latency**
+
 - Speed of Light
 - Typical Latency
 
@@ -2080,6 +2094,7 @@ Latency is usually measured in the **Round Trip Time (RTT)** for data to travers
 These are approximate times to give an idea of the differences, your measurements may vary.
 
 ---
+
 layout: two-cols-title
 columns: is-4
 title: performance final equation
@@ -2121,6 +2136,7 @@ $$
 **Queuing delay** represents any delays introduced by our equipment. We will ignore it for now.
 
 ---
+
 layout: two-cols-title
 columns: is-4
 title: performance cards setup
@@ -2151,6 +2167,7 @@ Latency
 - And so on for each row... the **fifth row** is **5Mbps** (5 cards).
 
 ---
+
 layout: two-cols-title
 columns: is-4
 title: performance cards round 1
@@ -2191,6 +2208,7 @@ At each second (my count):
 </v-click>
 
 ---
+
 layout: two-cols-title
 columns: is-4
 title: performance cards round 1 answer
@@ -2243,6 +2261,7 @@ $$
 \* The first exchange is **sending** the data, count only **exchanges**.
 
 ---
+
 layout: two-cols-title
 columns: is-4
 title: performance cards round 1 summary
@@ -2293,6 +2312,7 @@ $$
 </v-click>
 
 ---
+
 layout: two-cols-title
 columns: is-4
 title: performance cards setup latency
@@ -2324,6 +2344,7 @@ Latency
 - The **1st / front** row has **latency = 0.2s**.
 
 ---
+
 layout: two-cols-title
 columns: is-4
 title: performance cards round 1
@@ -2365,6 +2386,7 @@ At each second (my count):
 </v-click>
 
 ---
+
 layout: two-cols-title
 columns: is-4
 title: performance cards round 2 answer
@@ -2409,7 +2431,7 @@ $$
 
 \begin{align*}
 latency   &= 0.2 \text{s (per seat)} &&\rightarrow 1 \text{s} \\
-bandwidth &= 5 \text{Mbps} &&\rightarrow \text{transmit} = 13 {s} \\
+bandwidth &= 1 \text{Mbps} &&\rightarrow \text{transmit} = 13 {s} \\
 transfer\ time &= 1 \text{s} + (1 \text{Mb} \times 13 \text{s}) &&= \textbf{14s}
 \end{align*}
 $$
@@ -2417,6 +2439,7 @@ $$
 The **minimum** transfer time with **0s latency** would be **13s**.
 
 ---
+
 layout: two-cols-title
 columns: is-4
 title: performance break activity
@@ -2440,12 +2463,14 @@ Latency
 
 # When are these equal?
 
-## When does bandwidth dominate transmission time? 
+## When does bandwidth dominate transmission time?
+
 ## When does latency?
 
 </Question>
 
 ---
+
 layout: two-cols-title
 columns: is-4
 title: performance problem 1
@@ -2465,11 +2490,12 @@ Latency
 
 :: right ::
 
-### Consider a **1 byte message** and a **1 byte response** over a **10 Mbps** link with a **10 ms RTT**.
+### Consider a **1 byte message** and a **1 byte response** over a **10 Mbps** link with a **10 ms RTT**
 
 <Question>
 
 ## Does **bandwitdh** or **latency** dominate the total transmission time?
+
 </Question>
 
 <v-click>
@@ -2480,6 +2506,7 @@ Latency
 <Question v-click="2">
 
 ## When will **bandwidth** dominate?
+
 </Question>
 
 <div v-click="3">
@@ -2487,12 +2514,13 @@ Latency
 When the message size becomes large and takes more than 10&nbsp;ms to transmit.
 </div>
 
-
 ---
+
 layout: two-cols-title
 columns: is-4
 title: performance bandwidth x latency
 ---
+
 :: title ::
 
 # Performance
@@ -2511,17 +2539,19 @@ Bandwidth & Latency
 
 Consider a **10 Mbps** link with a **100 ms RTT**.
 
-A **10 KB message** ($10 KB = 10,000 \times 8 = 80,000$ bits).<br/>Will take **8 ms** to transmit.
+A **10 KiB message** ($10 KiB = 10,240 \times 8 = 81,920$ bits).<br/>Will take **8.192 ms** to transmit.
 
 Because the one-way latency is 50 ms, the data will finish sending before the first bit is received on the other end.
 
 The data is completely **on the network** or **in-flight** during that time!
 
 ---
+
 layout: two-cols-title
 columns: is-4
 title: performance bandwidth x latency question
 ---
+
 :: title ::
 
 # Performance
@@ -2545,6 +2575,7 @@ The data is completely **on the network** or **in-flight** during that time!
 <Question>
 
 ## How much data can be **in-flight** at a time on the network?
+
 </Question>
 
 <v-click>
@@ -2564,6 +2595,7 @@ The project [pingfs](https://github.com/yarrick/pingfs) actually makes use of th
 </v-click>
 
 ---
+
 layout: two-cols-title
 columns: is-4
 title: performance exercise intro
@@ -2589,7 +2621,7 @@ Bandwidth $\times$ Latency
 
 Lets look at some examples in a few different scenarios.
 
-Calcluate the total time required to transfer a **1000 KB file** in the following cases, assuming an **RTT of 50 ms**, a packet size of **1 KB** data, and an **initial 2 $\times$ RTT of "handshaking"** before data is sent.
+Calcluate the total time required to transfer a **1,000 KiB file** in the following cases, assuming an **RTT of 50 ms**, a packet size of **1 KiB** data, and an **initial 2 $\times$ RTT of "handshaking"** before data is sent.
 
 1. Data can be sent continuiously.
 2. The sender needs to wait 1 RTT between packets.
@@ -2598,10 +2630,12 @@ Calcluate the total time required to transfer a **1000 KB file** in the followin
 
 <Note>
 
-1KB is $2^{10} = 1,024$ not $10^{3} = 1,000$
+1KiB is $2^{10} = 1,024$ bytes and 1 kB is $10^{3} = 1,000$ bytes.
+Using [NIST Reference](http://physics.nist.gov/cuu/Units/binary.html)
 </Note>
 
 ---
+
 layout: two-cols-title
 columns: is-4
 title: performance exercise
@@ -2626,17 +2660,18 @@ Bandwidth $\times$ Latency
 
 :: right ::
 
-Calcluate the total time required to transfer a **1000 KB file** in the following cases, assuming an **RTT of 50 ms**, a packet size of **1 KB** data, and an **initial 2 $\times$ RTT of "handshaking"** before data is sent.
+Calcluate the total time required to transfer a **1,000 KiB file** in the following cases, assuming an **RTT of 50 ms**, a packet size of **1 KiB** data, and an **initial 2 $\times$ RTT of "handshaking"** before data is sent.
 
-1. The bandwidth is **10 Mbps**, and data packets can be **sent continuosly**.
+1. The bandwidth is **1.5 Mbps**, and data packets can be **sent continuosly**.
 
-2. The bandwidth is **10 Mbps**, but after we finish sending each data packet **we must wait one RTT** before sending the next.
+2. The bandwidth is **1.5 Mbps**, but after we finish sending each data packet **we must wait one RTT** before sending the next.
 
 3. The link allows infinitely fast transmit, but limits bandwidth such that only **20 packets can be sent per RTT**.
 
 4. **Zero transmit time**, but during the first RTT we can send one packet, during the second RTT we can sent two packets, during the third we can send four ($2^{3-1}$), etc. (A justification for such an exponential increase will be given later.)
 
 ---
+
 layout: two-cols-title
 columns: is-4
 title: performance exercise a
@@ -2660,17 +2695,17 @@ Bandwidth $\times$ Latency
 
 :: right ::
 
-1. The bandwidth is **10 Mbps**, and data packets can be **sent continuosly**.
+1. The bandwidth is **1.5 Mbps**, and data packets can be **sent continuosly**.
 
 $$
 \begin{align*}
 \text{Handshake}            &= 2 \times RTT                     &&= 0.1\ \text{s} \\
 \text{Propagation delay}    &= \text{RTT} / 2                   &&= 0.025\ \text{s}\\
 \text{Packet size}          &= 2^{10} \times 8                  &&= 8,192\ \text{bits} \\
-\text{Data size}            &= (1,000 \times 2^{10}) \times 8   &&= 8,192,000\ \text{bits} \\
-\text{Bandwidth}            &= 1.5 \times 10^{6}                &&= 10\ \text{Mpbs} \\
+\text{Data size}            &= 1,000 \times (2^{10} \times 8)   &&= 8,192,000\ \text{bits} \\
+\text{Bandwidth}            &= 1.5 \times 10^{6}                &&= 1.5\ \text{Mpbs} \\
 \text{Transmit time}        &= \text{size} / \text{bandwidth}               \\
-                            &= 8,192,000 / (1.5\times 10^{6})  &&= 5.4613\ \text{s}
+                            &= 8,192,000 / (10,000,000)         &&= 5.4613\ \text{s}
 \end{align*}
 $$
 
@@ -2682,6 +2717,7 @@ $$
 $$
 
 ---
+
 layout: two-cols-title
 columns: is-4
 title: performance exercise b
@@ -2705,18 +2741,18 @@ Bandwidth $\times$ Latency
 
 :: right ::
 
-2. The bandwidth is **10 Mbps**, but after we finish sending each data packet **we must wait one RTT** ($0.05\ \text{s}$) before sending the next.
+2. The bandwidth is **1.5 Mbps**, but after we finish sending each data packet **we must wait one RTT** ($0.05\ \text{s}$) before sending the next.
 
 $$
 \begin{align*}
 \text{Transmit time}        &= 8,192,000 / (1.5\times 10^{6})   &&= 5.4613\ \text{s} \\
 
 \text{Packet size}          &= 2^{10} \times 8                  &&= 8,192\ \text{bits} \\
-\text{Data size}            &= (1,000 \times 2^{10}) \times 8   &&= 8,192,000\ \text{bits} \\
+\text{Data size}            &= 1,000 \times (2^{10} \times 8)   &&= 8,192,000\ \text{bits} \\
 \text{Packets}      &= \text{Data size} / \text{Packet size}    &&= 1,000\ \text{packets}\\
 \\
 \text{Wait time}    &= (\text{Packets} - 1) \times \text{RTT}   &&= 49.95\ \text{s} \\
-\text{Transmit}     &= \text{Transmit time} + \text{Wait time}  &&= 55.4113\ \text{s} \\
+\text{Transmit}     &= \text{Transmit time} + \text{Wait time}  &&= \\
                     &= 5.4613\ \text{s} + 49.95\ \text{s}       &&= 55.4113\ \text{s}
 \end{align*}
 $$
@@ -2729,6 +2765,7 @@ $$
 $$
 
 ---
+
 layout: two-cols-title
 columns: is-4
 title: performance exercise c
@@ -2774,6 +2811,7 @@ $$
 We subtract One-way Propogation as we don't need to wait after the last chunk is sent.
 
 ---
+
 layout: two-cols-title
 columns: is-4
 title: performance exercise d
@@ -2817,6 +2855,7 @@ $$
 $$
 
 ---
+
 layout: two-cols-title
 columns: is-4
 title: performance exercise 2
@@ -2842,9 +2881,9 @@ Exercise
 
 :: right ::
 
-This exercise is very similar to the previous one, but uses a different **RTT**. Work on this one on your own for practice.
+This exercise is very similar to the previous one. Work on this one on your own for practice.
 
-Calcluate the total time required to transfer a **1.5 MB file** in the following cases, assuming an **RTT of 80 ms**, a packet size of **1 KB** data, and an **initial 2 $\times$ RTT of "handshaking"** before data is sent.
+Calcluate the total time required to transfer a **1.5 MiB file** in the following cases, assuming an **RTT of 80 ms**, a packet size of **1 KiB** data, and an **initial 2 $\times$ RTT of "handshaking"** before data is sent.
 
 1. The bandwidth is **10 Mbps**, and data packets can be **sent continuosly**. (1.458 s)
 
@@ -2854,8 +2893,213 @@ Calcluate the total time required to transfer a **1.5 MB file** in the following
 
 4. **Zero transmit time**, but during the first RTT we can send one packet, during the second RTT we can sent two packets, during the third we can send four ($2^{3-1}$), etc. (1 s)
 
+---
+
+layout: two-cols-title
+columns: is-4
+title: performance exercise 2 a
+---
+
+:: title ::
+
+# Performance
+
+:: left ::
+
+Bandwidth
+
+Latency
+
+Bandwidth & Latency
+
+Bandwidth $\times$ Latency
+
+Exercise
+
+**Exercise<br/>On your own**
+
+:: right ::
+
+1. **1.5 MiB file**, **RTT of 80 ms**, packet size **1 KiB**, **initial 2 $\times$ RTT of handshaking**,
+bandwidth **10 Mbps**, packets **sent continuosly**.
+
+$$
+\begin{align*}
+\text{Data Size}    &= (1.5 \times 2^{20}) \times 8     &&= 12,582,912 \text{bits} \\
+\text{Bandwidth}    &= 10 \times 10^6                   &&= 10,000,000\ \text{bits per second}\\
+\text{RTT}          &=                                  &&= 0.08\ \text{s} \\
+\text{Packet Size}  &= 2^{10} \times 8                  &&= 8,192 \text{bits} \\
+\text{Handshake}    &= 2 \times \text{RTT}              &&= 0.16 \text{s} \\
+\end{align*}
+$$
+
+$$
+\begin{align*}
+\text{total} &= \text{handshake} + \text{propogation} + \text{transmit} \\
+\text{propogation}  &= \text{RTT}\ /\ 2                   &&= 0.04 \text{s} \\
+\text{transmit}     &= \text{size}\ /\ \text{bandwidth}   &&= 1.258 \text{s} \\
+\text{total}        &= 0.16 + 0.04 + 1.2583 \text{s}    &&= \textbf{\underline{1.458 \text{s}}}
+
+\end{align*}
+$$
 
 ---
+
+layout: two-cols-title
+columns: is-4
+title: performance exercise 2 b
+---
+
+:: title ::
+
+# Performance
+
+:: left ::
+
+Bandwidth
+
+Latency
+
+Bandwidth & Latency
+
+Bandwidth $\times$ Latency
+
+Exercise
+
+**Exercise<br/>On your own**
+
+:: right ::
+
+2. **1.5 MiB file**, **RTT of 80 ms**, packet size **1 KiB**, **initial 2 $\times$ RTT of handshaking**,
+**10Mbps**, **1 RTT delay** after each packet.
+
+$$
+\begin{align*}
+\text{Data Size}    &= (1.5 \times 2^{20}) \times 8     &&= 12,582,912 \text{bits} \\
+\text{Bandwidth}    &= 10 \times 10^6                   &&= 10,000,000\ \text{bits per second}\\
+\text{RTT}          &=                                  &&= 0.08\ \text{s} \\
+\text{Packet Size}  &= 2^{10} \times 8                  &&= 8,192 \text{bits} \\
+\text{Handshake}    &= 2 \times \text{RTT}              &&= 0.16 \text{s} \\
+\end{align*}
+$$
+
+$$
+\begin{align*}
+
+\text{propogation}  &= \text{RTT}\ /\ 2                   &&= 0.04 \text{s} \\
+\text{transmit}     &= \text{size}\ /\ \text{bandwidth}   &&= 1.258 \text{s} \\
+\text{packets}      &= \text{size}\ /\ \text{packet size} &&= 1,536\ \text{packets} \\
+\text{packet delay} &= (\text{packets} - 1) \times \text{RTT} &&= 122.8 \text{s}\\
+
+\text{total}        &= 0.16 + 0.04 + (1.2583 + 122.8)     &&= \textbf{\underline{124.258 \text{s}}}
+\end{align*}
+$$
+
+---
+
+layout: two-cols-title
+columns: is-4
+title: performance exercise 2 c
+---
+
+:: title ::
+
+# Performance
+
+:: left ::
+
+Bandwidth
+
+Latency
+
+Bandwidth & Latency
+
+Bandwidth $\times$ Latency
+
+Exercise
+
+**Exercise<br/>On your own**
+
+:: right ::
+
+3. **1.5 MiB file**, **RTT of 80 ms**, packet size **1 KiB**, **initial 2 $\times$ RTT of handshaking**,
+**infinite bandwidth**, packets **sent 20 per RTT**.
+
+$$
+\begin{align*}
+\text{Data Size}    &= (1.5 \times 2^{20}) \times 8     &&= 12,582,912 \text{bits} \\
+\text{Bandwidth}    &= 10 \times 10^6                   &&= 10,000,000\ \text{bits per second}\\
+\text{RTT}          &=                                  &&= 0.08\ \text{s} \\
+\text{Packet Size}  &= 2^{10} \times 8                  &&= 8,192 \text{bits} \\
+\text{Handshake}    &= 2 \times \text{RTT}              &&= 0.16 \text{s} \\
+\end{align*}
+$$
+
+$$
+\begin{align*}
+\text{packets}      &= \text{size}\ /\ \text{packet size}   &&= 1,536 \text{packets} \\
+\text{chunks}       &= ceil(\text{packets}\ /\ 20)          &&= 77\ \text{chunks} \\
+
+\text{total}        &= \text{handshake} + (\text{chunks} \times \text{RTT}) \\
+\text{total}        &= 0.16 + (77 \times 0.08)    &&= \textbf{\underline{6.32 \text{s}}}
+
+\end{align*}
+$$
+
+---
+
+layout: two-cols-title
+columns: is-4
+title: performance exercise 2 d
+---
+
+:: title ::
+
+# Performance
+
+:: left ::
+
+Bandwidth
+
+Latency
+
+Bandwidth & Latency
+
+Bandwidth $\times$ Latency
+
+Exercise
+
+**Exercise<br/>On your own**
+
+:: right ::
+
+4. **1.5 MiB file**, **RTT of 80 ms**, packet size **1 KiB**, **initial 2 $\times$ RTT of handshaking**,
+**infinite bandwidth**, packets **send $2^{(n-1)}$ each RTT**.
+
+$$
+\begin{align*}
+\text{Data Size}    &= (1.5 \times 2^{20}) \times 8     &&= 12,582,912 \text{bits} \\
+\text{RTT}          &=                                  &&= 0.08\ \text{s} \\
+\text{Packet Size}  &= 2^{10} \times 8                  &&= 8,192 \text{bits} \\
+\text{Handshake}    &= 2 \times \text{RTT}              &&= 0.16 \text{s} \\
+\end{align*}
+$$
+
+$$
+\begin{align*}
+\text{packets}      &= \text{size}\ /\ \text{packet size}   &&= 1,536 \text{packets} \\
+\text{chunks}       &= ceil(log_2(\text{packets})           &&= 11\ \text{chunks} \\
+
+\text{total}        &= \text{handshake} + (\text{chunks} \times \text{RTT}) \\
+\text{total}        &= 0.16 + (11 \times 0.08) - 0.04       &&= \textbf{\underline{1.0 \text{s}}}
+
+\end{align*}
+$$
+
+NOTE: We subtracted out 1/2 of the last RTT (0.04) as we don't need to wait after we have sent the last group of packets.
+
+---
+
 layout: center
 ---
 

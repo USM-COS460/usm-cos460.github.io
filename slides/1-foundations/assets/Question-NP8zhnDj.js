@@ -1,1 +1,0 @@
-import{_ as e}from"./Admonition-CWf9nCnX.js";import{b as n,o as s,w as i,j as r}from"./modules/vue-DNA4_otk.js";import{u as _}from"./slidev/context-DTmRCjHT.js";const u={__name:"Question",setup(a){return _(),(o,c)=>{const t=e;return s(),n(t,{title:"Question",icon:"mdi-help-circle-outline"},{default:i(()=>[r(o.$slots,"default")]),_:3})}}};export{u as _};
