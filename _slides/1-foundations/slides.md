@@ -14,7 +14,6 @@ download: true
 of data communication networks
 
 ---
-
 layout: two-cols-title
 columns: is-4
 ---
@@ -49,7 +48,6 @@ flowchart LR
 
 *Doing that thing Computer Scientists do...*
 ---
-
 layout: quote
 color: sky-light
 quotesize: text-m
@@ -60,7 +58,6 @@ author: 'Talking Heads'
 “*How did I get here?*”
 
 ---
-
 layout: two-cols-title
 columns: is-4
 ---
@@ -84,7 +81,6 @@ Includes linking, descriptive formatting, style, images, video, …
 Incredibly flexible, often used by higher-level applications
 
 ---
-
 layout: two-cols-title
 columns: is-4
 ---
@@ -112,7 +108,6 @@ The first killer app for the Internet
 Now more common to access email via web (HTTP).
 
 ---
-
 layout: two-cols-title
 columns: is-4
 ---
@@ -142,7 +137,6 @@ Even before the cloud there was network storage
 …and of course, over HTTP these days
 
 ---
-
 layout: two-cols-title
 columns: is-4
 ---
@@ -174,7 +168,6 @@ Motion Picture Experts Group (MPEG) is most common
 - Video - MPEG-2, …, MPEG-4
 
 ---
-
 layout: two-cols-title
 columns: is-4
 ---
@@ -210,7 +203,6 @@ There are too many other applications to enumerate
 - Slide presentations (Google, Microsoft, …)
 
 ---
-
 layout: center
 ---
 
@@ -223,7 +215,6 @@ Source: [Gerald Maduabuchi(Quora), Phillip Webber](https://www.quora.com/What-is
 </div>
 
 ---
-
 layout: center
 ---
 
@@ -246,7 +237,6 @@ In groups of 2-3, Google the "tech stack" for a website or web based application
 <CountdownTimer :minutes="5" :seconds="0" />
 
 ---
-
 layout: default
 ---
 
@@ -263,7 +253,6 @@ layout: default
 - What else did you find?
 
 ---
-
 layout: two-cols-title
 columns: is-4
 ---
@@ -299,7 +288,6 @@ flowchart LR
 ## Let's start looking at *requirements* first
 
 ---
-
 layout: center
 title: dilbert requirements
 ---
@@ -307,7 +295,6 @@ title: dilbert requirements
 ![dilbert requirements](/requirements-dilbert.jpg)
 
 ---
-
 layout: two-cols-title
 title: requirements
 ---
@@ -354,7 +341,6 @@ Some requirements are common across all perspectives.
 Some requirements are specific to a perspective; users, developers, or service provider.
 
 ---
-
 layout: two-cols
 columns: is-7
 title: common requirements
@@ -405,7 +391,6 @@ These are basic requirements across all perspectives.
 - The network needs to **support the services** we want to use.
 
 ---
-
 layout: two-cols-title
 columns: is-4
 title: scalable connectivity
@@ -465,7 +450,6 @@ architecture-beta
 Some other relevant terms; a **host** is a type of node, a **switch** or **router** are internally a node and a link.
 
 ---
-
 layout: two-cols-title
 columns: is-4
 title: cost effective
@@ -506,7 +490,6 @@ graph LR
 There are a few common ways we can accomplish this.
 
 ---
-
 layout: two-cols
 columns: is-8
 ---
@@ -533,7 +516,6 @@ Work in groups of 4. Each group gets an **Instruction Sheet** and Game Area and 
 e.x. Sequence 1="D", 2="o", 3="g"
 
 ---
-
 layout: two-cols
 columns: is-8
 title: sharing the wire - round 1
@@ -558,7 +540,6 @@ After time ends, the receiver decodes the messages sent by the senders.
 ![multiplexing board setup](/multiplexing-board-setup.svg)
 
 ---
-
 layout: two-cols
 columns: is-8
 title: sharing the wire - round 2
@@ -584,7 +565,6 @@ After time ends, the receiver decodes the messages sent by the senders.
 ![multiplexing board setup](/multiplexing-board-setup.svg)
 
 ---
-
 layout: two-cols
 columns: is-8
 title: sharing the wire - round 3
@@ -633,7 +613,6 @@ title: sharing the wire - discussion
 </v-clicks>
 
 ---
-
 layout: two-cols-title
 columns: is-4
 title: frequency division
@@ -683,7 +662,6 @@ The empty boxes above represent when no sender has any more data to send, their 
 This is how broadcast radio and television work. Each station gets a sub-band of the entire band. They broadcast continuiously and thus always have "data" to send.
 
 ---
-
 layout: two-cols-title
 columns: is-4
 title: time division
@@ -769,7 +747,6 @@ The empty boxes above represent when a sender has no more data to send, their ti
 During their time slot they use the *entire band* so can send $3×$ the amount of data during the time slot as with frequency division.
 
 ---
-
 layout: two-cols-title
 columns: is-4
 title: time division compact
@@ -832,7 +809,6 @@ During their time slot they use the *entire band* so can send $3×$ the amount o
 This collapsed version is a bit more compact and easy to look at. Note the "A" instead of "a" to represent $3×$ the data in the packet.
 
 ---
-
 layout: two-cols-title
 columns: is-4
 title: packet switching
@@ -894,7 +870,6 @@ The empty boxes above represent when **no sender** has data to send. The time sl
 As you likely discovered, there can be **collisions** when multiple senders try to send. We will deal with those later.
 
 ---
-
 layout: two-cols-title
 columns: is-4
 title: multiplexing summary
@@ -1008,7 +983,6 @@ block-beta
 ```
 
 ---
-
 layout: two-cols-title
 columns: is-4
 title: support common services
@@ -1040,7 +1014,6 @@ It needs to define **useful channels** that understand the **application needs**
 - Command and Control (e.g. "turn on light")
 
 ---
-
 layout: two-cols-title
 columns: is-4
 title: reliable and manageable
@@ -1076,7 +1049,6 @@ The network can continue to work with new services and parameters.
 - Supports new applications
 
 ---
-
 layout: two-cols
 title: common requirements review
 ---
@@ -1126,7 +1098,6 @@ These are basic requirements across all perspectives.
 - The network needs to **support the services** we want to use.
 
 ---
-
 layout: two-cols
 title: user requirements
 ---
@@ -1175,7 +1146,6 @@ Users want an inexpensive and fast network that supports the applications they w
 - Reliable and recovers quickly when failures occur
 
 ---
-
 layout: two-cols
 title: developer requirements
 ---
@@ -1224,7 +1194,6 @@ Developers want a network that provides well thought out libraries to develop ag
 - Has good error handling and retry mechanisims
 
 ---
-
 layout: two-cols
 title: provider requirements
 ---
@@ -1273,7 +1242,6 @@ Service providers (ISPs) want a future-proof network that has good tools for man
 - Reliable to avoid downtime
 
 ---
-
 layout: center
 title: missing requirements
 ---
@@ -1291,7 +1259,6 @@ Take a couple of minutes to think about and write down
 <CountdownTimer :minutes="2" :seconds="30" />
 
 ---
-
 layout: two-cols
 columns: is-7
 title: architecture
@@ -1337,7 +1304,6 @@ There are two **major architectures** in use today; the **ISO/OSI** model and th
 They both are described as **layers** that interact with each other via well-defined **protocols**.
 
 ---
-
 layout: two-cols-title
 columns: is-4
 title: architecture layers
@@ -1378,7 +1344,6 @@ block-beta
 This is a simplified view of the layers in a network stack.
 
 ---
-
 layout: two-cols-title
 columns: is-4
 title: architecture protocols
@@ -1435,7 +1400,6 @@ lowB --> lowA
 This peer-to-peer interface is called a **Protocol**.
 
 ---
-
 layout: two-cols-title
 columns: is-4
 title: architecture encapsulation
@@ -1503,7 +1467,6 @@ block-beta
 This peer-to-peer interface is called a **Protocol**.
 
 ---
-
 layout: two-cols-title
 columns: is-4
 title: architecture encapsulation
@@ -1561,7 +1524,6 @@ block-beta
 ```
 
 ---
-
 layout: two-cols-title
 columns: is-4
 title: architecture encapsulation multiplex
@@ -1606,7 +1568,6 @@ graph LR
 ```
 
 ---
-
 layout: two-cols-title
 columns: is-4
 title: architecture encapsulation demultiplex
@@ -1664,7 +1625,6 @@ block-beta
 The **process** field similarly tells *which process* on the host to deliver the data to.
 
 ---
-
 layout: two-cols-title
 columns: is-4
 title: architecture ISO/OSI model
@@ -1701,7 +1661,6 @@ The two are interoperable but their layers do not have a direct correspondence t
 </ExamTip>
 
 ---
-
 layout: two-cols-title
 columns: is-4
 title: architecture ISO/OSI model
@@ -1751,7 +1710,6 @@ block-beta
 -->
 
 ---
-
 layout: two-cols-title
 columns: is-4
 title: architecture internet model
@@ -1783,7 +1741,6 @@ The Internet model has fewer layers and allows calling any of them from any othe
 It tends to be a more popular architecture for developers dur to its relaxed calling nature.
 
 ---
-
 layout: two-cols-title
 columns: is-4
 title: architecture comparison
@@ -1886,7 +1843,6 @@ The Internet model *network* layer performs the functions on the OSI network, da
 </div>
 
 ---
-
 layout: two-cols
 columns: is-7
 title: performance
@@ -1931,7 +1887,6 @@ In this section we will formally define them and see how to measure the performa
 This will help us understand not only how to benchmark network performance, but also the factors that can be tuned to affect that performance.
 
 ---
-
 layout: two-cols-title
 columns: is-4
 title: performance bandwitdh
@@ -1954,7 +1909,6 @@ While this is true, **bandwidth** is actually the *width of the frequency band* 
 ![throughput](/throughput.png)
 
 ---
-
 layout: two-cols-title
 columns: is-4
 title: performance bandwitdh example
@@ -1993,7 +1947,6 @@ Consider these example **bandwidth** calculations:
 </v-click>
 
 ---
-
 layout: two-cols-title
 columns: is-4
 title: performance latency
@@ -2025,7 +1978,6 @@ $$
 - **speed of light** is the effective speed of light.
 
 ---
-
 layout: two-cols-title
 columns: is-4
 title: performance latency speed of light
@@ -2061,7 +2013,6 @@ Don't worry, the speed of light is still constant, just constant on different me
 </Note>
 
 ---
-
 layout: two-cols-title
 columns: is-4
 title: performance latency typical
@@ -2094,7 +2045,6 @@ Latency is usually measured in the **Round Trip Time (RTT)** for data to travers
 These are approximate times to give an idea of the differences, your measurements may vary.
 
 ---
-
 layout: two-cols-title
 columns: is-4
 title: performance final equation
@@ -2136,7 +2086,6 @@ $$
 **Queuing delay** represents any delays introduced by our equipment. We will ignore it for now.
 
 ---
-
 layout: two-cols-title
 columns: is-4
 title: performance cards setup
@@ -2167,7 +2116,6 @@ Latency
 - And so on for each row... the **fifth row** is **5Mbps** (5 cards).
 
 ---
-
 layout: two-cols-title
 columns: is-4
 title: performance cards round 1
@@ -2208,7 +2156,6 @@ At each second (my count):
 </v-click>
 
 ---
-
 layout: two-cols-title
 columns: is-4
 title: performance cards round 1 answer
@@ -2261,7 +2208,6 @@ $$
 \* The first exchange is **sending** the data, count only **exchanges**.
 
 ---
-
 layout: two-cols-title
 columns: is-4
 title: performance cards round 1 summary
@@ -2312,7 +2258,6 @@ $$
 </v-click>
 
 ---
-
 layout: two-cols-title
 columns: is-4
 title: performance cards setup latency
@@ -2344,7 +2289,6 @@ Latency
 - The **1st / front** row has **latency = 0.2s**.
 
 ---
-
 layout: two-cols-title
 columns: is-4
 title: performance cards round 1
@@ -2386,7 +2330,6 @@ At each second (my count):
 </v-click>
 
 ---
-
 layout: two-cols-title
 columns: is-4
 title: performance cards round 2 answer
@@ -2439,7 +2382,6 @@ $$
 The **minimum** transfer time with **0s latency** would be **13s**.
 
 ---
-
 layout: two-cols-title
 columns: is-4
 title: performance break activity
@@ -2470,7 +2412,6 @@ Latency
 </Question>
 
 ---
-
 layout: two-cols-title
 columns: is-4
 title: performance problem 1
@@ -2515,7 +2456,6 @@ When the message size becomes large and takes more than 10&nbsp;ms to transmit.
 </div>
 
 ---
-
 layout: two-cols-title
 columns: is-4
 title: performance bandwidth x latency
@@ -2546,7 +2486,6 @@ Because the one-way latency is 50 ms, the data will finish sending before the fi
 The data is completely **on the network** or **in-flight** during that time!
 
 ---
-
 layout: two-cols-title
 columns: is-4
 title: performance bandwidth x latency question
@@ -2595,7 +2534,6 @@ The project [pingfs](https://github.com/yarrick/pingfs) actually makes use of th
 </v-click>
 
 ---
-
 layout: two-cols-title
 columns: is-4
 title: performance exercise intro
@@ -2635,7 +2573,6 @@ Using [NIST Reference](http://physics.nist.gov/cuu/Units/binary.html)
 </Note>
 
 ---
-
 layout: two-cols-title
 columns: is-4
 title: performance exercise
@@ -2671,7 +2608,6 @@ Calcluate the total time required to transfer a **1,000 KiB file** in the follow
 4. **Zero transmit time**, but during the first RTT we can send one packet, during the second RTT we can sent two packets, during the third we can send four ($2^{3-1}$), etc. (A justification for such an exponential increase will be given later.)
 
 ---
-
 layout: two-cols-title
 columns: is-4
 title: performance exercise a
@@ -2717,7 +2653,6 @@ $$
 $$
 
 ---
-
 layout: two-cols-title
 columns: is-4
 title: performance exercise b
@@ -2765,7 +2700,6 @@ $$
 $$
 
 ---
-
 layout: two-cols-title
 columns: is-4
 title: performance exercise c
@@ -2811,7 +2745,6 @@ $$
 We subtract One-way Propogation as we don't need to wait after the last chunk is sent.
 
 ---
-
 layout: two-cols-title
 columns: is-4
 title: performance exercise d
@@ -2855,7 +2788,6 @@ $$
 $$
 
 ---
-
 layout: two-cols-title
 columns: is-4
 title: performance exercise 2
@@ -2894,7 +2826,6 @@ Calcluate the total time required to transfer a **1.5 MiB file** in the followin
 4. **Zero transmit time**, but during the first RTT we can send one packet, during the second RTT we can sent two packets, during the third we can send four ($2^{3-1}$), etc. (1 s)
 
 ---
-
 layout: two-cols-title
 columns: is-4
 title: performance exercise 2 a
@@ -2944,7 +2875,6 @@ $$
 $$
 
 ---
-
 layout: two-cols-title
 columns: is-4
 title: performance exercise 2 b
@@ -2996,7 +2926,6 @@ $$
 $$
 
 ---
-
 layout: two-cols-title
 columns: is-4
 title: performance exercise 2 c
@@ -3047,7 +2976,6 @@ $$
 $$
 
 ---
-
 layout: two-cols-title
 columns: is-4
 title: performance exercise 2 d
@@ -3099,7 +3027,6 @@ $$
 NOTE: We subtracted out 1/2 of the last RTT (0.04) as we don't need to wait after we have sent the last group of packets.
 
 ---
-
 layout: center
 ---
 
